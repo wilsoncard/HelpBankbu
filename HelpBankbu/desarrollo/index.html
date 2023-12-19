@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Empresa</title>
+    <link rel="stylesheet" href="css/styleindex.css">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="img/logoBankbu_.png" alt="Logo de Mi Empresa">
+        <div id="menuBtn">
+            <img src="img/menu.png" alt="Botón de Menú">
+        </div>
+    </header>
+   <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li>
+                <a href="#" class="main-option">Servicios</a>
+                <ul>
+                    <li><a href="#">Subopcion 1</a></li>
+                    <li><a href="#">Subopcion 2</a></li>
+                    <li><a href="#">Subopcion 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="main-option">Contacto</a>
+                <ul>
+                    <li><a href="#">Subopcion A</a></li>
+                    <li><a href="#">Subopcion B</a></li>
+                    <li><a href="#">Subopcion C</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div>
+            <h2>"Guardianes Financieros: Asegurando el Futuro de tus Activos"</h2>
+            <p>En un mundo impulsado por la tecnologia y la conectividad global, la seguridad financiera se ha convertido
+ en una prioridad critica para individuos y empresas por igual. En este escenario, surge una figura fundamental
+: "Guardianes Financieros", una empresa lider en seguridad bancaria comprometida con la proteccion integral de los activos
+ financieros de sus clientes.</p>
+        </div>
+        <img src="img/bankbu-removebg-preview.png" alt="Imagen de la empresa">
+    </section>
+
+ <script>
+    // Función para cerrar el menú
+    function closeMenu() {
+        var nav = document.querySelector("nav");
+        nav.style.left = "-250px";
+    }
+
+    // Función para abrir el menú
+    function openMenu() {
+        var nav = document.querySelector("nav");
+        nav.style.left = "0";
+    }
+
+    document.getElementById("menuBtn").addEventListener("click", function(e) {
+        e.stopPropagation(); // Evita que el clic se propague al documento
+        var nav = document.querySelector("nav");
+        if (nav.style.left === "-250px") {
+            openMenu();
+        } else {
+            closeMenu();
+        }
+    });
+
+    // Agregar evento de clic a las opciones principales
+    var mainOptions = document.querySelectorAll(".main-option");
+    mainOptions.forEach(function(option) {
+        option.addEventListener("click", function(e) {
+            e.stopPropagation(); // Evita que el clic se propague al documento
+            var submenu = this.nextElementSibling; // Obtener el elemento hermano siguiente (ul)
+            if (submenu.style.visibility === "visible") {
+                submenu.style.visibility = "hidden";
+            } else {
+                submenu.style.visibility = "visible";
+            }
+        });
+    });
+
+    // Cerrar el menú al hacer clic fuera de él
+    document.addEventListener("click", function() {
+        closeMenu();
+    });
+
+    // Evitar que el clic se propague desde el menú al documento
+    document.querySelector("nav").addEventListener("click", function(e) {
+        e.stopPropagation();
+    });
+</script>
+</body>
+</html>
+
+
+
