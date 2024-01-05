@@ -1,0 +1,54 @@
+.PARRAFO {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+
+}
+.TITLE {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	color: #99CC33;
+	font-weight: bold;
+	font-variant: normal;
+
+}
+.SUBTITULO {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #99CC00;
+	font-weight: bold;
+
+}
+.SUBTTLO2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+
+}
+.Marca {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #CCCCCC;
+}
+.LINK2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	color: #006600;
+	text-decoration: underline;
+	line-height: normal;
+	font-variant: normal;
+
+}

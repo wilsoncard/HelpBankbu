@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANKBU®</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/PAGES.CSS">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../img/logoBankbu_.png" alt="Logo de Mi Empresa">
+        <div id="menuBtn">
+            <img src="../img/menu.png" alt="Botón de Menú ">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html" class="main-option">INICIO</a>
+            </li>
+            <li><a href="#" class="main-option">NUCLEO</a>
+                <ul>
+                    <li><a href="NUH_000B.html">Config. Sistema</a></li>
+                    <li><a href="NUH_00B_N2.html">Parametros</a></li>
+                    <li><a href="NUH_00B_inicio.html">Inicio</a></li>
+                    <li><a href="NUH_00B_proceso.html">Proceso</a></li>
+                    <li><a href="NUH_00B_inf.html">Inf. Cliente</a></li>
+                    <li><a href="NUH_00B_conta.html">Contabilidad</a></li>
+                    <li><a href="NUH_00B_audi.html">Auditoria</a></li>
+                    <li><a href="NUH_00B_migra.html">Migracion</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="main-option">EMISOR</a>
+                <ul>
+                    <li><a href="EMH_000B.html">Productos</a></li>
+                    <li><a href="EMH_000Bsoli.html">Solicitudes</a></li>
+                    <li><a href="EMH_000Bmerca.html">Mercadeo</a></li>
+                    <li><a href="EMH_000Bservi.html">Servicio Al Cliente</a></li>
+                    <li><a href="EMH_000Bpendi.html">Pendientes</a></li>
+                    <li><a href="EMH_000Btrans.html">Transaccionabilidad</a></li>
+                    <li><a href="EMH_000Bauto.html">Autorizaciones</a></li>
+                    <li><a href="EMH_000Bplasti.html">Adm. Plasticos</a></li>
+                    <li><a href="EMH_000Brecla.html">Reclamos</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="ACH_000B.html" class="main-option">ADQUIRIENTE</a>
+            </li>
+            <li>
+                <a href="DBH_000B.html" class="main-option">TARJETA DEBITO</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div id="Layer2" > 
+            <table width="100%" border="0">
+              <tr> 
+                <td width="57%"><div align="right"> 
+                    <p align="center" class="TITLE">Configuraciones</p>
+                  </div></td>
+              </tr>
+            </table>
+            <p align="center" class="PARRAFO">A trav&eacute;s de &eacute;ste formulario Bankb&uacute;&reg; permite a funcionarios conocedores del modelo de la base de datos, definir el alcance de la auditor&iacute;a que la entidad requiera, teniendo en consideraci&oacute;n el costo de la misma en cuanto al consumo de recursos del sistema que de &eacute;sta se derive.</p>
+            <p align="center" class="PARRAFO">Una configuraci&oacute;n puede estar  compuesta de una o m&aacute;s tablas o estructuras de la base de datos. El sistema no permite operar m&aacute;s de una configuraci&oacute;n al mismo tiempo, motivo por el cual al generar una configuraci&oacute;n, &eacute;sta entra en operaci&oacute;n y desactiva la anterior:</p>
+            <p align="center" class="PARRAFO">El formulario inicial desplegado contiene el enlace <a href="#nuevaconfiguracion" target="_self" class="LINK2">Nueva Configuraci�n</a>.</p>
+            <p align="center"><img src="../img/AUF_001E.PNG" width="703" height="150"></p>
+            <p align="center">&nbsp;</p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=731 border=0 cellpadding=0 cellspacing=0 #'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="57" valign=top class="SUBTITULO" #'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Id</strong> <b><br>
+                        </b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="left" class="PARRAFO">Campo de salida que ilustra la secuencia asignada por el sistema y que permite identificar las diferentes configuraciones de auditor&iacute;a definidos por la entidad. El formulario m&aacute;ximo muestra dos registros, el primero con la configuraci&oacute;n vigente o generada y la nueva que est&eacute; en construcci&oacute;n.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Estado</strong><b></b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="center" class="PARRAFO">Campo de salida que puede mostrar <span class="style1">GENERADA</span> o <span class="style1">EN_CONSTRUCCION</span>, permiti&eacute;ndole  al usuario diferenciar la configuraci&oacute;n vigente de la que no lo est&eacute;.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Fecha creaci&oacute;n </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p>Campo de salida que muestra la fecha en la que cada configuraci&oacute;n fue definida.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Usuario de creaci&oacute;n </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p>Campo de salida que ilustra el usuario de la base de datos del <a href="NUH_045E.html"><span class="LINK2">funcionario</span></a> que defini&oacute; cada configuraci&oacute;n.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Fecha de generaci&oacute;n </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p>Campo de salida que muestra la fecha en la que cada configuraci&oacute;n cambio de estado de<span class="style1"> EN_CONSTRUCCION</span> a <span class="style1">GENERADA</span>.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Usuario de generaci&oacute;n </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p>Campo de salida que ilustra el usuario de la base de datos del <a href="NUH_045E.html"><span class="LINK2">funcionario</span></a> que realiza el cambio de estado de<span class="style1"> EN_CONSTRUCCION</span> a <span class="style1">GENERADA</span>.</p></td>
+              </tr>
+            </table>
+            <p align="center">&nbsp;</p>
+            <p align="justify"><span class="PARRAFO"><span class="SUBTTLO2"><span #'font-family:Arial'><b #'mso-bidi-font-weight:normal'><a name="nuevaconfiguracion"></a>Nueva Configuraci&oacute;n</b></span><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'>:</span></font></span> El formulario desplegado al invocar el enlace provisto por el sistema en el campo <em>Id</em> del formulario inicial, contiene cinco enlaces 
+            que permiten invocar otros formulario desde los cuales se parametrizan y activan las configuraciones, &eacute;stos son: </span><a href="#agregartabla" target="_self" class="LINK2">Agregar tabla</a><span class="PARRAFO">, <a href="#estimarcrecimiento" target="_self" class="LINK2">Estimar crecimiento de table spaces</a>, <a href="#descargarscript" target="_self" class="LINK2">Descargar Script</a>, <a href="#generarconfiguracion" target="_self" class="LINK2">Generar Configuraci�n</a>, <a href="#verificarestado" target="_self" class="LINK2">Verificar estado  configuraci�n</a> y Eliminar Configuraci&oacute;n; para &eacute;ste &uacute;ltimo enlace no se requiere documentaci&oacute;n adicional, dado que la &uacute;nica funci&oacute;n es la de quitar la configuraci&oacute;n desde la que se activa. </span></p>
+            <p align="justify"><span class="PARRAFO">El formulario de <em>Tablas</em>  contiene los enlaces <em>Actualizar</em></span>,<span class="PARRAFO"><em> Eliminar</em> y <em>Detalle</em>.</span></p>
+             <p align="center"><img src="../img/AUF_001E1.PNG" width="679" height="281"></p>
+            <p align="justify">&nbsp;</p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=731 border=0 cellpadding=0 cellspacing=0 #'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="57" valign=top class="SUBTITULO" #'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Esquema</strong> <b><br>
+                </b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="left" class="PARRAFO">Campo de salida que contiene el nombre asignado por el sistema al conjunto de tablas de la base de datos sobre las que se va a realizar la auditor&iacute;a. </p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Nombre</strong><b></b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="center" class="PARRAFO">Campo de salida que muestra cada uno de los nombres de las estructuras o tablas que van a ser auditadas. </p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Descripci&oacute;n</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p>Campo de salida que ilustra brevemente la funci&oacute;n principal de la estructura o tabla de la base de datos. </p></td>
+              </tr>
+            </table>
+            <p align="justify">&nbsp;</p>
+            <p align="justify"><span class="PARRAFO"><span class="SUBTTLO2"><font face="Arial, Helvetica, sans-serif"><b #'mso-bidi-font-weight:normal'><span #'font-family:Arial;
+              '>Actualizar</span></b><span #'font-family:Arial'>:</span></font></span><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'> Esta funcionalidad se activa siempre y </span></font><span #'font-family:Arial'>cuando el esquema tenga estructuras o tablas asociadas, si </span><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'> el usuario invoca el enlace <em>Actualizar</em>, se depliega</span></font><span #'font-family:Arial'> un wisard de </span> <span #'font-family:Arial'>d</span><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'>os pasos, mediante el cual puede modificarse los campos a auditar de la estructura desde la que se invoca, as&iacute; como los </span></font><span #'font-family:Arial'>datos del table space</span><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'> de la confi</span></font><span #'font-family:Arial'>guraci&oacute;n generada.</span></span></p>
+            <p align="center" class="TITLE">&nbsp;</p>
+            <p align="center"><img src="../img/AUF_001E2.PNG" width="725" height="616"></p>
+            <p align="center" class="TITLE">&nbsp;</p>
+            <p align="center" class="TITLE"><img src="../img/AUF_001E3.PNG" width="598" height="331"></p>
+            <p align="center" class="TITLE">&nbsp;</p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=731 border=0 cellpadding=0 cellspacing=0 #'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="57" valign=top class="SUBTITULO" #'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Columna</strong> <b><br>
+                </b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="left" class="PARRAFO">El formulario debe contener la totalidad de los campos o columnas de la estructura o tabla de base de datos indicada en el campo <em>Nombre tabla</em>, justo antes de  cada nombre de la columna el formulario provee un campo checkbox, aquellos que aparecen preseleccionados y que no permiten modificaci&oacute;n, corresponden a los campos que son llave primaria y por defecto  deben auditarse, mientras que  los restantes,  aparecen disponibles para que, a criterio de quien define la auditor&iacute;a, marque los dem&aacute;s campos o columnas que van a auditarse. La funcionalidad permite desmarcar campos previamente activados.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Tipo</strong><b></b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="center" class="PARRAFO">Campo de salida que ilustra si el dato contenido corresponde a un valor num&eacute;rico o alfanum&eacute;rico o, a una fecha. </p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Longitud</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p>Campo de salida que muestra la extensi&oacute;n o magnitud m&aacute;xima que puede tener el dato dentro de cada campo.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Precisi&oacute;n</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Aplica &uacute;nicamente para los campos tipo num&eacute;rico e indica la cantidad m&aacute;xima de digitos que componen el dato, incluye tanto la parte entera como los decimales. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Escala</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Aplica &uacute;nicamente para los campos tipo num&eacute;rico e indica la cantidad m&aacute;xima de <span class="PARRAFO" #"padding:3.0pt 3.0pt 3.0pt 3.0pt">decimales</span>que puede contener el dato. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Descripci&oacute;n</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Campo de salida que muestra el comentario asociado a cada columna en la base de datos, que procura comunicar la raz&oacute;n del ser del campo. Si la longitud del mensaje supera la capacidad del campo en el formulario, se muestra un s&iacute;gno m&aacute;s que al activarse despliega una ventana con el texto completo del mismo. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Registros mensuales </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Campo num&eacute;rico, obligatorio, en el que debe indicarse, en un m&aacute;ximo de diez (10) enteros, la cantidad tope de registros a auditar durante cada mes en que la configuraci&oacute;n est&eacute; activa. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Data table space </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Campo que posee lista de valores tipo combo de la que debe seleccionarse el nombre que identifica el espacio del disco en el que se almacenan los datos asociados a la auditor&iacute;a. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Index table space </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Campo que posee lista de valores tipo combo de la que debe seleccionarse el nombre que identifica el espacio del disco en el que se almacenan los &iacute;ndices asociados a la auditor&iacute;a.</td>
+              </tr>
+            </table>
+            <p>&nbsp;</p>
+            <p align="justify"><span class="PARRAFO"><span class="SUBTTLO2"><span #"font-family: Arial"><b #'mso-bidi-font-weight:normal'>Detalle</b></span><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'>:</span></font></span><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'> Si el usuario invoca el enlace </span></font><span #'font-family:Arial'><em>Detalle</em></span><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'>, </span></font><span #'font-family:Arial'>el siguiente formulario: </span></span></p>
+            <p align="center"><img src="../img/AUF_001E4.PNG" width="718" height="448"></p>
+            <p>&nbsp;</p>
+            <p class="PARRAFO"><a name="agregartabla"></a><span class="SUBTTLO2">Agregar tabla</span><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'>:</span></font> El sistema muestra la primera estructura o tabla de la base de datos, seg&uacute;n el orden alfab&eacute;tico ascendente de las mismas. Bankb&uacute;&reg; provee un wisard de tres pasos, en el primero, el usuario debe proceder a seleccionar, una a una, las estructuras que requiera incluir dentro del presente esquema, el formulario provee el filtro<em> Nombre tabla</em>, en el que, utilizando el s&iacute;mbolo &quot;%&quot; a manera de comod&iacute;n, es posible consultar la base de datos para ubicar la estructura requerida. En el segundo paso, debe indicar, a cu&aacute;les campos de la estructura seleccionada, diferentes a llaves primaria, requiere auditar; as&iacute; mismo, en &eacute;ste formulario el sistema  provee el filtro<em> Nombre columna</em>, que opera igual que el anteriormente descrito, pero a nivel de los campos de la estructura o tabla y, en el tercer y &uacute;ltimo paso, la data asociada al table space correspondiente.</p>
+            <p>&nbsp;</p>
+            <p align="center"><img src="../img/AUF_001E5.PNG" width="734" height="572"></p>
+            <p align="center" class="TITLE">&nbsp;</p>
+            <p align="center" class="TITLE"><img src="../img/AUF_001E6.PNG" width="746" height="610"></p>
+            <p align="center" class="TITLE"><img src="../img/AUF_001E7.PNG" width="548" height="327"></p>
+            <p align="center" class="TITLE">&nbsp;</p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=731 border=0 cellpadding=0 cellspacing=0 #'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="57" valign=top class="SUBTITULO" #'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'>Esquema</td>
+                <td width="514" valign=top class="PARRAFO" #'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'>Campo de salida que ilustra el nombre asignado por el sistema.</td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="57" valign=top class="SUBTITULO" #'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'>Tabla</td>
+                <td width="514" valign=top class="PARRAFO" #'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'>El formulario despliega, en &oacute;rden alfab&eacute;tico ascendente, las estructuras o tablas del sistema, de la cuales, el usuario debe marcar, en el radiobutton a la izquierda del nombre de la estructura a adicionar y luego, mediante el bot&oacute;n avanzar, llegar al segundo paso del wisard. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="57" valign=top class="SUBTITULO" #'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Columna</strong> <b><br>
+                </b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="left" class="PARRAFO">El formulario debe contener la totalidad de los campos o columnas de la estructura o tabla de base de datos indicada en el campo <em>Nombre tabla</em>, justo antes de  cada nombre de la columna el formulario provee un campo checkbox, aquellos que aparecen preseleccionados y que no permiten modificaci&oacute;n, corresponden a los campos que son llave primaria y por defecto  deben auditarse, mientras que  los restantes,  aparecen disponibles para que, a criterio de quien define la auditor&iacute;a, marque los dem&aacute;s campos o columnas que van a auditarse.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Tipo</strong><b></b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="center" class="PARRAFO">Campo de salida que ilustra si el dato contenido corresponde a un valor num&eacute;rico o alfanum&eacute;rico o, a una fecha. </p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Longitud</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p>Campo de salida que muestra la extensi&oacute;n o magnitud m&aacute;xima que puede tener el dato dnetro de cada campo.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Precisi&oacute;n</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Aplica &uacute;nicamente para los campos tipo num&eacute;rico e indica la cantidad m&aacute;xima de digitos que componen el dato, incluye tanto la parte entera como los decimales. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Escala</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Aplica &uacute;nicamente para los campos tipo num&eacute;rico e indica la cantidad m&aacute;xima de <span class="PARRAFO" #"padding:3.0pt 3.0pt 3.0pt 3.0pt">decimales</span>que puede contener el dato. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Descripci&oacute;n</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Campo de salida que muestra el comentario asociado a cada columna en la base de datos, que procura comunicar la raz&oacute;n del ser del campo. Si la longitud del mensaje supera la capacidad del campo en el formulario, se muestra un s&iacute;gno m&aacute;s que al activarse despliega una ventana con el texto completo del mismo. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Registros mensuales </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Campo num&eacute;rico, obligatorio, en el que debe indicarse, en un m&aacute;ximo de diez (10) enteros, la cantidad tope de registros a auditar durante cada mes en que la configuraci&oacute;n est&eacute; activa. </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Data table space </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Campo que posee lista de valores tipo combo de la que debe seleccionarse el nombre que identifica el espacio del disco en el que se almacenan los datos asociados a la auditor&iacute;a.</td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Index table space </td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Campo que posee lista de valores tipo combo de la que debe seleccionarse el nombre que identifica el espacio del disco en el que se almacenan los &iacute;ndices asociados a la auditor&iacute;a.</td>
+              </tr>
+            </table>
+            <p align="center" class="TITLE">&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><span class="PARRAFO"><span class="SUBTTLO2"><a name="estimarcrecimiento"></a>Estimar crecimiento de table spaces<font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'>:</span></font></span> El sistema, basado en un c&aacute;lculo estad&iacute;stico, indica la cantidad de espacio f&iacute;sico que requiere en el disco duro para almacenar la data de auditor&iacute;a, en el evento en que, en un mes se alcance la cantidad de registros se&ntilde;alados  en el campo <em>Registros mensuales</em> en el paso tres (Table spaces) de </span><a href="#agregartabla" target="_self" class="LINK2">Agregar tabla</a><span class="PARRAFO">. </span></p>
+            <p align="center"><img src="../img/AUF_001E8.PNG" width="685" height="278"></p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=731 border=0 cellpadding=0 cellspacing=0 #'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="57" valign=top class="SUBTITULO" #'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Nombre table space </strong> <b><br>
+                </b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="left" class="PARRAFO">Campo de salida que ilustra la asignaci&oacute;n indicada por el usuario en el campo </p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Crecimiento mensual </strong><b></b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="center" class="PARRAFO">Campo de salida que  muestra el resultado del c&aacute;lculo o estimaci&oacute;n efectuada por el sistema, sobre la magnitud de espacio f&iacute;sico de disco duro requerida para almacenar la data de la estructura, desde donde se ordena &eacute;sta acci&oacute;n.</p></td>
+              </tr>
+            </table>
+            <p></p>
+            <p><span class="PARRAFO"><span class="SUBTTLO2"><a name="descargarscript"></a>Descargar Script<font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'>:</span></font></span> <span class="style3">Al momento de activar &eacute;ste enlace el sistema despliega una ventana emergente, mediante la cual se le permite al usuario ubicar y .... el archivo mediante el cual ....</span></span></p>
+            <p>&nbsp;</p>
+            <p align="center"><img src="../img/AUF_001E9.PNG" width="424" height="293"></p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=731 border=0 cellpadding=0 cellspacing=0 #'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="57" valign=top class="SUBTITULO" #'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'>&nbsp;</td>
+                <td width="514" valign=top class="PARRAFO" #'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="TITLE">Aplica el tener que describir &eacute;ste formulario?</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>&nbsp;</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>&nbsp;</td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>&nbsp;</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>&nbsp;</td>
+              </tr>
+            </table>
+            <p></p>
+            <p></p>
+            <p><span class="PARRAFO"><span class="SUBTTLO2"><a name="generarconfiguracion"></a>Generar Configuraci&oacute;n<font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'>:</span></font></span> Al activar &eacute;ste enlace, el sistema esencialmente procede a desactivar el esquema vigente hasta ese momento y cambiar el estado del nuevo esquema de <span class="style1">EN_CONSTRUCCION</span> a <span class="style1">GENERADA</span>.</span></p>
+            <p align="center">&nbsp;</p>
+            <p align="left" class="PARRAFO"><a name="verificarestado"></a><strong>Verificar estado configuraci&oacute;n</strong><font face="Arial, Helvetica, sans-serif"><span #'font-family:Arial'>:</span></font> Una vez se genera la configuraci&oacute;n del esquema y se realizan <a href="AUH_002E.html"><span class="LINK2">consultas</span></a>, se activar &eacute;ste enlace y al invocarlo, el sistema despliega el formulario: </p>
+            <p align="center">&nbsp;</p>
+            <p align="center"><img src="../img/AUF_001E10.PNG" width="649" height="349"></p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=731 border=0 cellpadding=0 cellspacing=0 #'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="57" valign=top class="SUBTITULO" #'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Estado</strong><b></b> del trigger <b><br>
+                </b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="left" class="PARRAFO">Campo que posee lista de valores tipo combo, mediante la cual es posible filtrar, por estado del trigger, el cual  puede ser: <em>Todo, Valido, Invalido o Eliminado</em>.</p>      </td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><strong>Nombre</strong><b></b></p></td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="center" class="PARRAFO">Campo de salida que ilustra el nombre asigando por el sistema al trigger creado por &eacute;ste para cada estructura, usualmente le adiciona el prefijo <span class="style1">AUD</span>_ y, al final le agrega la terminaci&oacute;n _<span class="style1">TRB</span>.</p></td>
+              </tr>
+              <tr #'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top class="SUBTITULO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'>Estado</td>
+                <td width="514" valign=top class="PARRAFO" #'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p>Campo de salida que muestra la condici&oacute;n de cada uno de los trigger definidos.</p></td>
+              </tr>
+            </table>
+            <p>&nbsp;</p>
+        </section>
+    <script src="../js/menu.js"></script>
+</body>
+<footer>
+    <div>
+        <img src="../img/logo.png">
+    </div>
+    <p>Open Card S.A.</p>
+    <p>-- Calle 77 Nº 11-19 Piso 4°, Ofc. 402, Bogotá D.C.</p>
+    <p> Colombia Suramérica -- Tel (571) 313 37 75- <a href="http://www.opencard.com"
+            target="_blank">www.opencard.com</a></p>
+
+
+
+</footer>
+
+</html>

@@ -1,0 +1,64 @@
+section {
+    text-align: justify !important;
+    margin-top: 4%;
+    margin-left: 12%; /* Ajuste para hacerlo más adaptable */
+}
+
+section table {
+    max-width: 80%;
+    width: 100%; /* Hace que la tabla sea responsive */
+}
+
+section div {
+    margin-left: 1%;
+    font-size: 2vw; /* Utiliza unidades de vista del ancho para el tamaño de fuente */
+    font-family: "Arial", sans-serif;
+}
+
+section h1 {
+    color: #341C8C;
+    font-size: 3vw; /* Tamaño de fuente relativo */
+}
+
+section h2, h3 {
+    color: #341C8C;
+    font-size: 2.5vw; /* Tamaño de fuente relativo */
+}
+
+section img {
+    margin-left: 2%; /* Ajuste para hacerlo más adaptable */
+    max-width: 100%; /* Hace que la imagen sea responsive */
+}
+
+section div h1 {
+    color: #341C8C;
+    font-size: 3vw; /* Tamaño de fuente relativo */
+}
+
+section p {
+    font-size: 2vw; /* Tamaño de fuente relativo */
+}
+
+section a {
+    text-decoration: none;
+    color: #F26716;
+    font-weight: bold;
+    font-size: 2vw; /* Tamaño de fuente relativo */
+    font-family: "Arial", sans-serif;
+}
+
+section h3:hover,
+section li a:hover {
+    color: #341C8C;
+}
+
+.TITLE {
+    font-size: 3vw; /* Tamaño de fuente relativo */
+    color: #341C8C !important;
+}
+
+.SUBTITULO,
+.SUBTTLO2 {
+    color: #341C8C !important;
+    font-size: 2.5vw; /* Tamaño de fuente relativo */
+}

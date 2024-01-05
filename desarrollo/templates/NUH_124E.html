@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANKBU®</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/NUH_001B.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logoBankbu_.png" alt="Logo de Mi Empresa">
+        <div id="menuBtn">
+            <img src="../img/menu.png" alt="Botón de Menú ">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html" class="main-option">INICIO</a>
+            </li>
+            <li><a href="#" class="main-option">NUCLEO</a>
+                <ul>
+                    <li><a href="NUH_000B.html">Config. Sistema</a></li>
+                    <li><a href="NUH_00B_N2.html">Parametros</a></li>
+                    <li><a href="NUH_00B_inicio.html">Inicio</a></li>
+                    <li><a href="NUH_00B_proceso.html">Proceso</a></li>
+                    <li><a href="NUH_00B_inf.html">Inf. Cliente</a></li>
+                    <li><a href="NUH_00B_conta.html">Contabilidad</a></li>
+                    <li><a href="NUH_00B_audi.html">Auditoria</a></li>
+                    <li><a href="NUH_00B_migra.html">Migracion</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="main-option">EMISOR</a>
+                <ul>
+                    <li><a href="EMH_000B.html">Productos</a></li>
+                    <li><a href="EMH_000Bsoli.html">Solicitudes</a></li>
+                    <li><a href="EMH_000Bmerca.html">Mercadeo</a></li>
+                    <li><a href="EMH_000Bservi.html">Servicio Al Cliente</a></li>
+                    <li><a href="EMH_000Bpendi.html">Pendientes</a></li>
+                    <li><a href="EMH_000Btrans.html">Transaccionabilidad</a></li>
+                    <li><a href="EMH_000Bauto.html">Autorizaciones</a></li>
+                    <li><a href="EMH_000Bplasti.html">Adm. Plasticos</a></li>
+                    <li><a href="EMH_000Brecla.html">Reclamos</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="ACH_000B.html" class="main-option">ADQUIRIENTE</a>
+            </li>
+            <li>
+                <a href="DBH_000B.html" class="main-option">TARJETA DEBITO</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div id="Layer2" > 
+            <table width="100%" border="0">
+              <tr> 
+                <td width="57%"><div align="right"> 
+                    <p align="center" class="TITLE">Asociaci&oacute;n a  conexiones, llaves y archivos a grupos </p>
+                  </div></td>
+              </tr>
+            </table>
+            <p align="justify"><span class="PARRAFO">En &eacute;ste formulario confluyen varios de los par&aacute;metros definidos por la entidad en las dem&aacute;s opciones que componen &eacute;ste subm&oacute;dulo. Permite vincular: </span><a href="NUH_121E.html"><span class="LINK2">Par&aacute;metros Grupos Entrada Salida</span></a><span class="PARRAFO">, </span><a href="NUH_122E.html"><span class="LINK2">Par&aacute;metros Llaves de cifrado PGP</span></a><span class="PARRAFO">, </span><a href="NUH_123E.html"><span class="LINK2">Par&aacute;metros conexi&oacute;n al servidor</span></a><span class="PARRAFO"> y <a href="OPH_001E.html" class="LINK2">Definici&oacute;n grupos de procesos</a>, lo que al final se obtiene es que al ejecutarse uno de los procesos  matriculados en &eacute;sta &uacute;ltima opci&oacute;n, si &eacute;ste requiere un archivo de entrada, debe tomarlo del servidor origen, copiarlo en la carpeta de entradas del aplicativo e iniciar la actividad que le corresponda a dicho proceso, mientras que si se trata de un proceso que deba generar un o m&aacute;s archivos de salida, debe surtir el proceso inverso, &eacute;sto es, copiarlo en la carpeta salidas del aplicativo y, finalmente ubicarlo en el servidor  destino, utilizando el correspondiente protocolo de transmisi&oacute;n  FTP o SSH, en claro o cifrado.  </span></p>
+            <p align="justify"><span class="PARRAFO">El formulario contiene los enlaces <em>Actualizar</em></span>,<span class="PARRAFO"><em> Eliminar</em> y <em>Adicionar</em>. </span></p>
+            <p align="center"><img src="../img/NUF_124E1.png" width="521" height="407"></p>
+            <p align="justify">&nbsp;</p>
+            <p align="justify"><span class="PARRAFO">Al activar el enlace <em>Adicionar</em>, el sistema despliega el  paso <em>Conexiones y Llaves</em> del  Wizard de dos momentos:</span></p>
+            <p align="justify"><span class="PARRAFO">:</span></p>
+            <p align="center"><img src="../img/NUF_124E2.png" width="716" height="396"></p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tipo de Grupo <br>
+                </b></p></td>
+                <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify" class="PARRAFO">Campo obligatorio que posee lista de valores tipo combo,  con los valores <em>Entrada </em>o <em>Salida</em> de la que la entidad debe seleccionar, para el grupo a asociar, a cual de ellas corresponde.</div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+               <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Grupo<br>
+                </b></p></td>
+                <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify" class="PARRAFO">Campo obligatorio que posee lista de valores tipo combo,  la cual se actualiza de forma din&aacute;mica dependiendo de lo seleccionado en el campo <em>Tipo de Grupo</em> con los valores poblados en el formulario <a href="NUH_121E.html" class="LINK2">Par&aacute;metros Grupos Entrada y Salida</a>. </div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+              <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Llave p&uacute;blica validar firma<br>
+                </b></p></td>
+                <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify" class="PARRAFO">Campo obligatorio que posee lista de valores tipo combo,  con los valores poblados en el formulario <a href="NUH_122E.html" class="LINK2">Par&aacute;metros Llaves de cifrado PGP </a>debe haber coherencia entre el tipo de grupo y la llave p&uacute;blica a utilizar, esto es, si se trata de un grupo de salida que requiera encripci&oacute;n se debe asociar la llave p&uacute;blica para tal fin. </div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Ruta archivos de entrada<br>
+                </b></p></td>
+                <td width="514" valign=top class="PARRAFO" style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify"><span class="PARRAFO">Campo alfanum&eacute;rico de 250 posiciones, cuya obligatoriedad, depende de  que el valor del campo <em>Tipo de Grupo</em> corresponda a <em>Entrada</em>, de aplicar, debe contener la ruta completa, del Servidor origen, en la que se deben ubicar los archivos de entrada.</span></div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Ruta archivos de salida<br>
+                </b></p></td>
+                <td width="514" valign=top class="PARRAFO" style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify">Campo alfanum&eacute;rico de 250 posiciones, cuya obligatoriedad, depende de  que el valor del campo <em>Tipo de Grupo</em> corresponda a <em>Salida</em>, de aplicar, debe contener la ruta completa, del Servidor de destino, en la que se deben ubicar los archivos de salida.</div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+                 <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Ruta archivos procesados<br>
+                </b></p></td>
+                <td width="514" valign=top class="PARRAFO" style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify">Campo alfanum&eacute;rico de 250 posiciones, no  obligatorio, para uso futuro, solo se despliega cuando el tipo de grupo corresponde a <em>Entrada</em>, en el que quedan almacenados los archivos iniciales tomados del Servidor de origen. </div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+                 <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Conexi&oacute;n<br>
+                </b></p></td>
+               <td width="514" valign=top class="PARRAFO" style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify">Campo obligatorio que posee lista de valores tipo combo,  con los valores poblados en el formulario <a href="NUH_123E.html" class="LINK2">Par&aacute;metros conexi&oacute;n al servidor</a>, a trav&eacute;s del cual se determina el protocolo de transmisi&oacute;n a ser utilizado. </div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+              <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cifrar / Descifrar<br>
+                </b></p></td>
+                <td valign=top class="PARRAFO" style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify">Campo obligatorio que posee lista de valores tipo combo con los valores <em>Si</em> y <em>No</em>, se activa <em>Cifrar</em> cuando se trata de archivos de <em>Salida</em> y <em>Descifrar</em> para cuando se habla de archivos de <em>Entrada</em>. </div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Comando de invocaci&oacute;n<br>
+                </b></p></td>
+                <td valign=top class="PARRAFO" style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify">Campo alfanum&eacute;rico de 20 posiciones, cuya obligatoriedad, depende de  que el valor del campo <em>Cifrar / Descifrar</em> corresponda a <em>Si</em>, en cuyo caso debe contener el comando del sistema operativo de invocaci&oacute;n  <em>gpg</em> (incluye un espacio a la derecha), para cuando se trata de un archivo de salida o el comando <em>gpg --batch --no-tty --yes</em> (incluye un espacio a la derecha), para cuando se trata de un archivo de entrada. </div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+              <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Comando frase o recipiente<br>
+                </b></p></td>
+                <td valign=top class="PARRAFO" style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify">Campo alfanum&eacute;rico de 50 posiciones, cuya obligatoriedad, depende de  que el valor del campo <em>Cifrar / Descifrar</em> corresponda a <em>Si</em>, en cuyo caso debe contener el comando del sistema operativo de la  clave <em>--recipient</em> para cuando se trata de un archivo de salida o el comando <em>--passphrase</em>, para cuando se trata de un archivo de entrada. </div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+              <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Comando salida<br>
+                </b></p></td>
+                <td valign=top class="PARRAFO" style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify">Campo alfanum&eacute;rico de 20 posiciones, cuya obligatoriedad, depende de  que el valor del campo<em> Cifrar / Descifrar</em> corresponda a <em>Si</em>, en cuyo caso debe contener el comando del sistema operativo de salida <em>--output</em>, indistintamente que se trate de un archivo de entrada o de salida. </div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Comando ejecuci&oacute;n<br>
+                </b></p></td>
+                <td valign=top class="PARRAFO" style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify">Campo alfanum&eacute;rico de 20 posiciones, cuya obligatoriedad, depende de  que el valor del campo<em>Cifrar / Descifrar</em> corresponda a <em>Si</em>, en cuyo caso debe contener el comando del sistema operativo<em> </em>de ejecuci&oacute;n <em>--encrypt</em> para cuando se trata de un archivo de salida o el comando <em>--decrypt</em>, para cuando se trata de un archivo de entrada.</div></td>
+              </tr>
+            </table>
+            <p>&nbsp;</p>
+            <p class="PARRAFO">En el segundo momento o paso del Wizard, <em>Asociaci&oacute;n de Archivos</em>, de la <em>Adici&oacute;n</em>, se despliega el siguiente formulario:</p>
+            <p align="center"><img src="../img/NUF_124E3.png" width="443" height="348"></p>
+            <p>&nbsp;</p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'>
+                <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Archivos sin asociar<br>
+                </b></p></td>
+                <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify">
+                  <p><span class="PARRAFO">Campo que posee lista de valores tipo combo,  que contiene la relaci&oacute;n de los diferentes procesos u objetos l&oacute;gicos parametrizados en el formulario <a href="OPH_001E.html" class="LINK2">Definici&oacute;n grupos de procesos</a>, en <em>N&uacute;cleo / Procesos</em>, que se actualiza din&aacute;micamente excluyendo aquellos procesos que fueron asociados a otras combinaciones de conexi&oacute;n / llave / archivos, en &eacute;ste mismo formulario y, de la cual se deben seleccionar todos aquellos procesos para los que coincidan  las siguientes dos condiciones: primera, ser de salida o de </span><span class="#1">entrada y, segunda, transferirse en claro o cifrad</span><span class="PARRAFO">os.</span> <span class="PARRAFO">La relaci&oacute;n  muestra: Descripci&oacute;n del objeto l&oacute;gico, Secuencia dentro del Grupo y Nombre del Objeto l&oacute;gico. </span></p>
+                  </div></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'>
+              <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Archivos asociados al Grupo<br>
+                </b></p></td>
+                <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><div align="justify" class="PARRAFO">Campo que inicialmente aparece en blanco y el cual, mediante los botones especiales ubicados entre ambos campos, permite mover uno o todos los registros de un campo hacia el otro, teniendo presente la pauta seg&uacute;n la cual, todos los procesos aqu&iacute; relacionados deben cumplir las dos condiciones indicadas en el campo Archivos sin asociar, para guardar dicha configuraci&oacute;n basta con activar el bot&oacute;n especial de la bandera ubicado en la parte inferior derecha. </div></td>
+              </tr>
+            </table>
+            <p></p>
+            <p align="justify"><span class="PARRAFO"><strong>Actualizar</strong>: Si el usuario selecciona un registro e invoca la opci&oacute;n&nbsp;<em>Actualizar</em>&nbsp;se despliega el paso <em>Conexiones y Llaves</em> del  Wizard de dos momentos, en los cuales todos los  campos son &nbsp;modificables.</span></p>
+            <p align="center"><img src="../img/NUF_124E2.png" width="716" height="396"></p>
+            <p align="center">&nbsp;</p>
+             <p align="center"><img src="../img/NUF_124E3.png" width="443" height="348"></p>
+            <p align="center">&nbsp;</p>
+            <div align="center">
+        </section>
+    <script src="../js/menu.js"></script>
+
+    <footer>
+        <div>
+            <img src="../img/logo.png">
+        </div>
+        <p>Open Card S.A.</p>
+        <p>-- Calle 77 Nº 11-19 Piso 4°, Ofc. 402, Bogotá D.C.</p>
+        <p> Colombia Suramérica -- Tel (571) 313 37 75- <a href="http://www.opencard.com"
+                target="_blank">www.opencard.com</a></p>
+
+    </footer>
+</body>
+
+</html>

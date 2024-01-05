@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANKBU®</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/NUH_001B.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logoBankbu_.png" alt="Logo de Mi Empresa">
+        <div id="menuBtn">
+            <img src="../img/menu.png" alt="Botón de Menú ">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html" class="main-option">INICIO</a>
+            </li>
+            <li><a href="#" class="main-option">NUCLEO</a>
+                <ul>
+                    <li><a href="NUH_000B.html">Config. Sistema</a></li>
+                    <li><a href="NUH_00B_N2.html">Parametros</a></li>
+                    <li><a href="NUH_00B_inicio.html">Inicio</a></li>
+                    <li><a href="NUH_00B_proceso.html">Proceso</a></li>
+                    <li><a href="NUH_00B_inf.html">Inf. Cliente</a></li>
+                    <li><a href="NUH_00B_conta.html">Contabilidad</a></li>
+                    <li><a href="NUH_00B_audi.html">Auditoria</a></li>
+                    <li><a href="NUH_00B_migra.html">Migracion</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="main-option">EMISOR</a>
+                <ul>
+                    <li><a href="EMH_000B.html">Productos</a></li>
+                    <li><a href="EMH_000Bsoli.html">Solicitudes</a></li>
+                    <li><a href="EMH_000Bmerca.html">Mercadeo</a></li>
+                    <li><a href="EMH_000Bservi.html">Servicio Al Cliente</a></li>
+                    <li><a href="EMH_000Bpendi.html">Pendientes</a></li>
+                    <li><a href="EMH_000Btrans.html">Transaccionabilidad</a></li>
+                    <li><a href="EMH_000Bauto.html">Autorizaciones</a></li>
+                    <li><a href="EMH_000Bplasti.html">Adm. Plasticos</a></li>
+                    <li><a href="EMH_000Brecla.html">Reclamos</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="ACH_000B.html" class="main-option">ADQUIRIENTE</a>
+            </li>
+            <li>
+                <a href="DBH_000B.html" class="main-option">TARJETA DEBITO</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div id="Layer2"> 
+            <table width="100%" border="0">
+              <tr> 
+                <td width="57%"><div align="right"> 
+                    <p align="center" class="TITLE">Generaci�n autom&aacute;tica de tarjetas de emergencia</p>
+                  </div></td>
+              </tr>
+            </table>
+            <p align="justify" class="PARRAFO">Este formulario tipo wizard de dos p&aacute;ginas, 
+              se invoca desde la opci&oacute;n <em><a href="SOH_029B.html" class="LINK2">generaci&oacute;n 
+              tarjetas de emergencia</a></em>, cuando en el campo <em>Administraci&oacute;n 
+              tarjetas emergencia</em>, de la opci&oacute;n <em><A href="NUH_055B.html" class="LINK2">Par&aacute;metros 
+              operativos</A></em> se ha definido como valor 'Autom&aacute;tica, le permite 
+              a la entidad hacer la generaci&oacute;n de los n&uacute;meros de tarjeta requeridos 
+              para los diferentes bines.</p>
+            <p align="left" class="PARRAFO">Para tal fin, el sistema revisa el n&uacute;mero 
+              de tarjetas de emergencia parametrizados para cada <em><a href="MEH_001B.html" class="LINK2">bin</a></em> 
+              y lo compara contra la cantidad de tarjetas actuales no asignadas determinando 
+              as&iacute; cuantos nuevos n&uacute;meros de tarjetas de emergencia debe crear 
+              para el respectivo bin. </p>
+            <p align="left" class="PARRAFO">En la primera p&aacute;gina del wizard, el sistema 
+              despliega todos los bines existentes y le permite al usuario marcar aquellos 
+              para los que desea ejecutar el proceso de generaci&oacute;n autom&aacute;tica.</p>
+            <p align="center"><img src="../img/SOF_028E.PNG" width="502" height="404"></p>
+            <p align="justify" class="PARRAFO">&nbsp;</p>
+            <p align="center" class="TITLE">Descripci�n de campos</p>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Bin<br>
+                    </b></p></td>
+                <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                    que muestra el c&oacute;digo de los diferentes bines parametrizados 
+                    para los cuales es posible generar tarjetas de emergencia.</p></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'> 
+                <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Descripci&oacute;n<br>
+                    </b></p></td>
+                <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Despliega 
+                    la descripci&oacute;n de cada uno de los bines<b>.</b></p></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'> 
+                <td height="65" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tarjetas 
+                    de emergencia reservadas<br>
+                    <br>
+                    <br>
+                    </b></p></td>
+                <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Contiene 
+                    el n&uacute;mero m&aacute;ximo de tarjetas de emergencia que de acuerdo 
+                    con los par&aacute;metros del <em><a href="MEH_001B.html" class="LINK2">bin</a></em>, 
+                    se pueden generar para el respectivo bin.</p></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="201" height="65" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Selecci&oacute;n<br>
+                    <br>
+                    <br>
+                    </b></p></td>
+                <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                    este check se marcan aquellos bines para los cuales se desea generar 
+                    n&uacute;meros de tarjetas de emergencia.</p></td>
+              </tr>
+            </table>
+            <blockquote>
+              <p class="PARRAFO">Una vez seleccionados los bines, el usuario se desplaza a 
+                la segunda p&aacute;gina del wizard donde por medio del bot&oacute;n finalizar 
+                el sistema genera los nuevos n&uacute;meros de tarjeta de emergencia de acuerdo 
+                con lo indicado anteriormente.</p>
+            </blockquote>
+            <p align="center"><img src="../img/SOF_028E1.PNG" width="436" height="85"></p>
+            <p align="justify" class="PARRAFO">&nbsp;</p>
+            <p align="justify" class="PARRAFO">Despu&eacute;s de finalizado el proceso, 
+              al regresar al formulario <a href="SOH_029B.html" class="LINK2"><em>Tarjetas 
+              de emergencia</em></a> el usuario podr&aacute; consultar los n&uacute;meros 
+              de tarjetas de emergencia generadas para cada bin.</p>
+            <div align="center" class="PARRAFO">
+        </section>
+    <script src="../js/menu.js"></script>
+
+    <footer>
+        <div>
+            <img src="../img/logo.png">
+        </div>
+        <p>Open Card S.A.</p>
+        <p>-- Calle 77 Nº 11-19 Piso 4°, Ofc. 402, Bogotá D.C.</p>
+        <p> Colombia Suramérica -- Tel (571) 313 37 75- <a href="http://www.opencard.com"
+                target="_blank">www.opencard.com</a></p>
+
+    </footer>
+</body>
+
+</html>

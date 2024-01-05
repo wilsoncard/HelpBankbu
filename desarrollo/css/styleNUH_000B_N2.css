@@ -1,0 +1,55 @@
+section table{
+    max-width: 80%;
+}
+section div {
+    margin-left: 3%;
+    font-size: 24px;
+    font-family: "arial";
+}
+section h1 {
+    color: #341C8C
+}
+section img {
+    margin-left: 10%;
+}
+section div h1 {
+    color: #341C8C;
+    font-size: 28px;
+}
+
+section p {
+    font-size: 24px;
+}
+
+
+/* Estilo para los enlaces dentro de los elementos li dentro de la sección */
+section  a {
+    text-decoration: none;
+    /* Quita el subrayado predeterminado del enlace */
+    color: #F26716;
+    /* Color del texto del enlace */
+    font-family: "arial";
+}
+
+/* Estilo para los enlaces cuando se pasan por encima dentro de la sección */
+section   h3:hover {
+    color: #341C8C;
+ /
+}
+section   li a:hover {
+    color: #341C8C;
+}
+
+.TITLE{
+    font-size: 28px;
+    position:center;
+    color:#341C8C;
+}
+.SUBTITULO{
+    font-size: 22px;
+    color:#341C8C; 
+}
+.SUBTTLO2{
+    font-size: 22px;
+    color: #341C8C;
+}
