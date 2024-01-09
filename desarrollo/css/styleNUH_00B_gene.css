@@ -1,0 +1,37 @@
+section img {
+    margin-top: -23%;
+}
+
+section div {
+    margin-top: 4%;
+    margin-left: 3%;
+    font-family: "arial";
+
+}
+
+section div h1 {
+    color: #f26716;
+    font-size: 28px;
+}
+
+section p {
+    font-size: 24px;
+}
+
+/* Estilo para los enlaces dentro de los elementos li dentro de la sección */
+section a {
+    text-decoration: none;
+    /* Quita el subrayado predeterminado del enlace */
+    color: #F26716;
+    /* Color del texto del enlace */
+    font-weight: bold;
+    /* Peso de la fuente en negrita */
+    font-size: 20px;
+    font-family: "arial";
+}
+
+/* Estilo para los enlaces cuando se pasan por encima dentro de la sección */
+section a:hover {
+    color: #341C8C;
+    /* Cambia el color del texto al pasar el ratón por encima del enlace */
+}
