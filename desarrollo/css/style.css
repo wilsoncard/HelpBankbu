@@ -1,20 +1,32 @@
 body {
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+    font-family: Arial;
+=======
     font-family: Arial, sans-serif;
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
     margin: 0;
     padding: 0;
     position: relative;
     overflow-x: hidden;
     text-align: justify;
     margin-top: 1%;
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+    margin-right: 2%;
+}
+=======
 }
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 header {
     color: #fff;
     padding: 1vw; /* Utiliza unidades de vista del ancho para el padding */
     text-align: right;
     position: relative;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 header img.logo {
     max-height: 6vw; /* Ajusta el tamaño del logo según tus necesidades con unidades relativas */
     width: auto;
@@ -22,7 +34,10 @@ header img.logo {
     top: 1vw;
     right: 2vw;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 #menuBtn {
     cursor: pointer;
     position: fixed;
@@ -30,12 +45,17 @@ header img.logo {
     top: 2vw;
     z-index: 1;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 #menuBtn img {
     height: auto;
     max-width: 80%;
     transition: opacity 0.5s;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
 
 section h1{
     color: #F26716;
@@ -45,6 +65,7 @@ p, h1, h2, h3 {
     font-size: 1vw; /* Tamaño de fuente relativo */
     margin: 1vw 0; /* Espacios relativos */
 }
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 nav {
     width: 70%;
     max-width: 250px;
@@ -57,8 +78,11 @@ nav {
     transition: 0.5s;
     padding-top: 6vh; 
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
 
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 nav a {
     padding: 13px;
     text-decoration: none;
@@ -68,25 +92,56 @@ nav a {
     transition: 0.3s;
     border-bottom: 1px solid #5c3aff;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 nav ul ul {
     visibility: hidden;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 nav ul li:hover ul {
     visibility: visible;
     max-height: 100%;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+section {
+    width: 97%; /* Puedes ajustar el valor según tus necesidades */
+    justify-content: space-between;
+    text-align: justify;
+    margin-right: 600vw;
+    margin-left: 5vw; /* Ajusta según tus necesidades con unidades relativas */
+    margin-top: 5vw; /* Ajusta según tus necesidades con unidades relativas */
+    display: flex;
+    align-items: center;
+    padding-bottom: 15vw; /* Ajusta según tus necesidades con unidades relativas */
+    transition: margin-left 0.5s;
+}
+section div {
+=======
 
 section div {
   
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
     width: 90vw; /* Ajusta según tus necesidades con unidades relativas */
     text-align: justify;
     margin: auto; /* Centra el contenido horizontalmente */
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+section table {
+    width: 100%; /* Hace que la tabla sea responsive */
+}
+footer {
+    background-color: #341C8C;
+    color: #fff;
+    padding: 1.5vw; /* Utiliza unidades de vista del ancho para el padding */
+=======
 
 section img {
    
@@ -121,24 +176,34 @@ footer {
     background-color: #341C8C;
     color: #fff;
     padding: 1vw; /* Utiliza unidades de vista del ancho para el padding */
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
     position: absolute;
     bottom: 0;
     width: 100%;
     transition: margin-left 0.5s;
 }
 footer div img {
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
   
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
     display:block;
 }
 footer p {
     text-align: right;
     margin-right: 2vw; /* Ajusta según tus necesidades con unidades relativas */
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+footer a {
+    color: #F26716;
+}
+=======
 
 footer a {
     color: #F26716;
 }
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 footer div {
     height: 3vw; /* Ajusta según tus necesidades con unidades relativas */
     width: auto;
@@ -147,6 +212,14 @@ footer div {
     left: 1vw; /* Ajusta según tus necesidades con unidades relativas */
     text-align: justify;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+.aviso-importante {
+    color: #F26716;
+}
+body.menu-opened section {
+    margin-left: 24vw; /* Ajusta según el ancho de tu menú con unidades relativas */
+}
+=======
 
 .aviso-importante {
     color: #F26716;
@@ -156,22 +229,42 @@ body.menu-opened section {
     margin-left: 20vw; /* Ajusta según el ancho de tu menú con unidades relativas */
 }
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 body.menu-opened #menuBtn img {
     opacity: 0;
     pointer-events: none;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 #menuBtn img, footer div img {
     max-width: 100%; /* Ajusta el ancho máximo de la imagen para evitar agrandamientos */
     height: auto;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+=======
 
 
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
 body.menu-opened footer div img {
     max-width: 80%; /* Ajusta según tus necesidades */
     height: auto;
 }
+<<<<<<< HEAD:HelpBankbu/desarrollo/css/style.css
+body.menu-opened footer {
+    margin-left: 18vw; /* Ajusta según el ancho de tu menú con unidades relativas */
+}
+/* Eliminar el punto predeterminado y agregar espacio entre el punto y el texto en los elementos li dentro de la sección */
+section div li {
+    list-style-type: none; /* Elimina el punto predeterminado */
+    margin-bottom: 10px; /* Ajusta el espacio entre elementos li */
+    margin-left: 5%;
+    color: #341C8C ;
+}
+=======
 
 body.menu-opened footer {
     margin-left: 18vw; /* Ajusta según el ancho de tu menú con unidades relativas */
 }
+>>>>>>> dc9b8d58fcbf9349078fff898f472e7198432d9b:desarrollo/css/style.css
