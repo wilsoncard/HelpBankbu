@@ -1,0 +1,88 @@
+section { 
+    text-align: justify !important;
+    margin-top: 3%;
+    margin-left: 7%; /* Ajuste para hacerlo más adaptable */
+}
+section table {
+    max-width: 70%;
+    width: 100%; /* Hace que la tabla sea responsive */
+}
+section div {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 6%;
+    font-size: 2.0vw; /* Utiliza unidades de vista del ancho para el tamaño de fuente */
+    font-family: "Arial", sans-serif;
+}
+section div h1 {
+    color: #341C8C;
+    font-size: 20.5vw; /* Tamaño de fuente relativo */
+}
+section h2, h3 {
+    color: #341C8C;
+    font-size: 2.0vw; /* Tamaño de fuente relativo */
+}
+section img {
+    margin: 4% 5vw 10px 0; /* Margen superior, derecho, inferior e izquierdo */
+    display: block; 
+    max-width: 85%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+    margin-bottom: 10px; /* Espacio inferior entre la imagen y el texto */
+}
+section div h1 {
+    color: #341C8C;
+    font-size: 2.5vw; /* Tamaño de fuente relativo */
+}
+section a {
+    text-decoration: none;
+    color: #F26716;
+    font-weight: bold;
+    font-size: 2.0vw; /* Tamaño de fuente relativo */
+    font-family: "Arial";
+}
+section h3:hover,
+section li a:hover {
+    color: #F26716;
+    font-size: 2.0vw; /* Tamaño de fuente relativo */
+    font-family: "Arial";
+}
+section h3,
+section li a {
+    color: #341C8C;
+    font-size: 2.0vw; /* Tamaño de fuente relativo */
+    font-family: "Arial";
+}
+.TITLE {
+    font-size: 2.5vw; /* Tamaño de fuente relativo */
+    color: #341C8C !important;
+    font-family: "Arial";
+}
+.SUBTITULO,
+.SUBTTLO2 {
+    color: #341C8C !important;
+    font-size: 2.0vw; /* Tamaño de fuente relativo */
+    font-size: 2.0vw; /* Tamaño de fuente relativo */
+    font-family: "Arial";
+}
+/* Eliminar el punto predeterminado y agregar espacio entre el punto y el texto en los elementos li dentro de la sección */
+section ul li {
+    text-decoration: none;
+    list-style-type: none; /* Elimina el punto predeterminado */
+    margin-bottom: 5px; /* Ajusta el espacio entre elementos li */
+    font-size: 2.0vw; /* Tamaño de fuente relativo */
+    font-family: "Arial";
+}
+section p{
+    width: 120%;
+}
+ .PARRAFO{
+    color: black;
+    font-size: 1.8vw; /* Tamaño de fuente relativo */
+    font-family: "Arial";
+}
+section div p{
+    margin-right: 5%;
+}
+section div table{
+    margin:0;
+    margin-right: 5%;
+}

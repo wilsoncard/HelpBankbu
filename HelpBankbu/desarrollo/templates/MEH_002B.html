@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANKBU®</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/PAGES.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logoBankbu_.png" alt="Logo de Mi Empresa">
+        <div id="menuBtn">
+            <img src="../img/menu.png" alt="Botón de Menú ">
+        </div>
+    </header>
+    <nav>
+      <ul>
+          <li>
+              <a href="../index.html" class="main-option">INICIO</a>
+          </li>
+          <li><a href="#" class="main-option">NUCLEO</a>
+              <ul>
+                  <li><a href="NUH_000B.html">Config. Sistema</a></li>
+                  <li><a href="NUH_00B_N2.html">Parametros</a></li>
+                  <li><a href="NUH_00B_inicio.html">Inicio</a></li>
+                  <li><a href="NUH_00B_proceso.html">Proceso</a></li>
+                  <li><a href="NUH_00B_inf.html">Inf. Cliente</a></li>
+                  <li><a href="NUH_00B_conta.html">Contabilidad</a></li>
+                  <li><a href="NUH_00B_audi.html">Auditoria</a></li>
+                  <li><a href="NUH_00B_migra.html">Migracion</a></li>
+              </ul>
+          </li>
+          <li>
+              <a href="#" class="main-option">EMISOR</a>
+              <ul>
+                  <li><a href="EMH_000B.html">Productos</a></li>
+                  <li><a href="EMH_000Bsoli.html">Solicitudes</a></li>
+                  <li><a href="EMH_000Bmerca.html">Mercadeo</a></li>
+                  <li><a href="EMH_000Bservi.html">Servicio Al Cliente</a></li>
+                  <li><a href="EMH_000Bpendi.html">Pendientes</a></li>
+                  <li><a href="EMH_000Btrans.html">Transaccionabilidad</a></li>
+                  <li><a href="EMH_000Bauto.html">Autorizaciones</a></li>
+                  <li><a href="EMH_000Bplasti.html">Adm. Plasticos</a></li>
+                  <li><a href="EMH_000Brecla.html">Reclamos</a></li>
+              </ul>
+          </li>
+          <li>
+              <a href="ACH_000B.html" class="main-option">ADQUIRIENTE</a>
+          </li>
+          <li>
+              <a href="DBH_000B.html" class="main-option">TARJETA DEBITO</a>
+          </li>
+      </ul>
+  </nav>
+
+    <section>
+        <center>
+            <div id="Layer2" > 
+                <table width="100%" border="0">
+                  <tr> 
+                    <td width="57%"><div align="right"> 
+                        <p align="center" class="TITLE">Definici&oacute;n de productos</p>
+                      </div></td>
+                  </tr>
+                </table>
+                <p align="justify" class="PARRAFO">Desde este formulario la entidad puede definir la combinación de bines, segmentos y grupos de afinidad que van a conformar los diferentes productos a ofrecer a sus clientes. </p>
+                <p align="justify" class="PARRAFO">El formulario contiene en la parte superior varios hipervínculos 
+                que permiten invocar otros formularios en los cuales es posible adicionar, modificar, eliminar   caracter&igrave;sticas  para los productos una vez que estos ya han sido creados en la base de datos: <em><a href="MEH_002B1.html" class="LINK2">Líneas de crédito</a>, <a href="MEH_002B2.html" class="LINK2">Otros cargos</a>, <a href="MEH_002B3.html" class="LINK2">Parámetros adicionales mora</a>, <a href="MEH_002B4.html" class="LINK2">Otros plásticos,</a> <a href="MEH_002B5.html" class="LINK2">Productos amparados</a></em>, <em><a href="MEH_002B6.html" class="LINK2">Parámetros excepción</a>, <a href="MEH_002B7.html" class="LINK2">Orden de aplicación de cuotas</a> y <a href="MEH_002B8.html" class="LINK2">Copia productos</a></em>.</p>
+                <p align="center" class=""><img src="../img/MEF_002E1.PNG" width="667" height="514"></p>
+                <p align="justify" class="PARRAFO">El formulario contiene un  filtro que le permite al usuario  consultar la información específica para los productos pertenecientes a un bin,  un segmento o un grupo de afinidad, o un producto en particular. Por defecto, al ingresar al formulario este trae todos los productos existentes en la base de datos.</p>
+                <p align="center"><img src="../img/MEF_002E.PNG" width="374" height="145"></p>
+                <p align="center" class="PARRAFO">&nbsp;</p>
+                <p align="center" class="PARRAFO">El formulario<em> </em>contiene las opciones Actualizar, Eliminar, Adicionar y Detalle.</p>
+                <p align="left" class="PARRAFO"><b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2">Adicionar:</span></b> Si el usuario invoca la opción Adicionar se despliega un wizard de tres pasos.</p>
+                <p align="left" class="PARRAFO">La primera página del wizard se encuentra dividida en tres bloques de datos (datos generales, saldo a favor y datos funcionales) y contiene los siguientes campos.</p>
+                <p align="center"><img src="../img/MEF_002E2.PNG" width="603" height="1081"></p>
+                <p align="left" class="PARRAFO">&nbsp;</p>
+                <p align="center" class="TITLE">Descripción de campos</p>
+                <table width=736 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><span class="SUBTITULO"><b>Bin</b></span></td>
+                    <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><span class="PARRAFO">Campo obligatorio con lista de valores de la cual se selecciona el <em><a href="MEH_001B.html" class="LINK2">bin</a></em> o prefijo con el cual se va a crear el nuevo producto.</span></td>
+                  </tr>
+                  <tr style'mso-yfti-irow:1'>
+                    <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><span class="SUBTITULO"><b>Producto</b></span></td>
+                    <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><span class="PARRAFO">Este campo obligatorio contiene lista de valores de la cual se selecciona el producto o segmento que va a conformar el nuevo producto. </span></td>
+                  </tr>
+                  <tr style'mso-yfti-irow:1'> 
+                    <td width="206" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Grupo de afinidad<br>
+                        </b></p></td>
+                    <td width="509" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio con lista de valores de la cual se selecciona el grupo de afinidad que junto con el bin y el segmento van a conformar el nuevo producto.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'> 
+                    <td width="206" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Descripción</b></p></td>
+                    <td width="509" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                        campo alfanum&egrave;rico de hasta 30 caracteres, obligatorio, permite registrar el nombre o descripción del nuevo producto a crear.<br>
+                      </p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'> 
+                    <td width="205" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Marca<br>
+                        </b></p></td>
+                    <td width="510" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                        de salida que a partir del bin despliega la <em><a href="NUH_033B.html" class="LINK2">marca o franquicia</a></em> a la cual pertenece el producto a crear.<br>
+                      </p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'> 
+                    <td width="204" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Código medio de pago<br>
+                        </b></p></td>
+                    <td width="511" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                        campo obligatorio cuenta con lista de valores para seleccionar el tipo de medio de pago a que corresponde el producto a crear.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'> 
+                    <td width="203" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Ciclo de facturación<br>
+                        </b></p></td>
+                    <td width="512" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                        obligatorio con lista de valores de la cual se selecciona el ciclo de facturación que por defecto van a tener todas las tarjetas asociadas con el nuevo producto.<br>
+                      </p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'> 
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Vigencia<br>
+                        </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo numúrico de hasta dos dígitos, obligatorio, se registra la cantidad de meses de vigencia que van a tener  las tarjetas pertenecientes al nuevo producto.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'> 
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Subserie número de tarjeta<br>
+                        </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio de hasta tres dígitos que permite registrar un valor fijo que de acuerdo con lo definido por la entidad puede o no hacer parte del <em><a href="NUH_052B.html" class="LINK2">número de la tarjeta</a></em>.
+                    </p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'> 
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Moneda usada en parámetros<br>
+                        </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                    campo obligatorio contiene lista de valores para seleccionar la <em><a href="NUH_005B.html" class="LINK2">moneda</a></em> en la cual se expresar&agrave;n los sobrecupos, saldos de la deuda y mora de las tarjetas pertenecientes al nuevo producto, as&igrave; como <em><a href="MEH_002B2.html" class="LINK2">Otros cargos</a></em> generados.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cupo en múltiplos de<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio tipo combo del cual se puede seleccionar la manera como se calcular� y otorgar� el cupo del producto en el proceso de   aumento masivo de cupos. </p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Ajuste cupos<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                      campo obligatorio tipo combo permite seleccionar entre <em>Truncar</em> y <em>Redondear</em>, la acción que debe tener en cuenta el sistema para ajustar los cupos calculados en el proceso de aumento masivo de cupos, a partir del <em>múltiplo</em> seleccionado en el campo   anterior.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cupo máximo<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo numérico de hasta 14 enteros y 2 decimales en el cual se registra el valor del cupo máximo que puede llegar a tener cualquier tarjeta perteneciente al nuevo producto.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>D&igrave;as gracia abonos<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                      campo num&egrave;rico obligatorio permite registrar la cantidad de d&igrave;as que tiene el cliente para efectuar el pago mínimo de su producto   sin que le sean liquidados intereses de mora.</p>
+                    </td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tipo producto<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio que contiene un combo con las opciones <em>Personal</em> y <em>Empresarial</em> para indicar el tipo de cliente al cual está dirigido el nuevo producto (persona natural o jur&igrave;dica). Este campo permite por ejemplo que un mismo bin se puede utilizar para crear productos empresariales y personales al mismo tiempo.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Manejo saldo a favor<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio tipo combo, que contiene como única  opción <em>Crear transacción de saldo a favor</em> para indicarle al sistema que cada vez que se genere un saldo a favor y este sea aplicado, se debe generar una transacción para mostrarle al cliente en el extracto y formalizar as&igrave; dicho saldo.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Definición saldo a favor<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                      campo obligatorio tipo combo permite seleccionar entre <em>Exceso sobre el pago mínimo</em> o <em>Exceso sobre el pago total</em> la forma en que el sistema debe interpretar los pagos efectuados por el cliente para determinar si se genera o no un saldo a favor. </p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Aplica para persona natural<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio tipo combo, en el cual se puede seleccionar entre <em>Exclusivo empleado corporación, Exclusivo no empleado corporación</em> o <em>Todos</em> el tipo de cliente persona natural a quien va dirigido el producto, de acuerdo con la <em><a href="MEH_004B.html" class="LINK2">categoría</a></em> a la cual pertenece el cliente.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Exige avalista<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio tipo combo del cual puede seleccionarse  entre <em>No exige avalista, Avalista solo no ra�z o   veh�culo</em> o <em>Exige avalista sin condiciones</em>, la condici�n que deben   cumplir los solicitantes de este producto; la opci�n <em>Avalista solo no ra�z o   veh�culo</em> implica requerir avalista en el evento en que el solicitante no   reporte informaci�n de si posee o no bien ra�z o veh�culo.</p>
+                    </td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos dudoso recaudo<br>
+                    </b></p></td>
+                    <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                      campo num&egrave;rico de hasta dos d�gitos, obligatorio, permite registrar la altura de mora a partir de la cual la obligaci�n ya se considera de dif�cil cobro y se le debe aplicar el bloqueo correspondiente.</p></td>
+                  </tr>
+                </table>
+                <p class="PARRAFO">&nbsp;</p>
+                <p class="PARRAFO">La primera p�gina del wizard contiene los hiperv�nculos <em><a href="MEH_002B.html#BL_PARAMETROS" class="LINK2">Par�metros</a></em>, <em><a href="MEH_002B.html#BL_CUOTAS" class="LINK2">Cuotas</a></em> y <em><a href="MEH_002B.html#BL_EVENTOS" class="LINK2">Eventos</a></em> con los cuales se invocan otros formularios en los que el usuario puede adicionar mas par�metros para el nuevo producto. Si el usuario lo desea y por comodidad tambi�n, <strong>se sugiere</strong>  adicionar inicialmente el producto diligenciando �nicamente los campos obligatorios del wizard (p�ginas 1,2 y 3) y posteriormente, una vez que el producto haya sido creado agregar la informaci�n en estos tres hiperv�nculos, invocando el bot&oacute;n <a href="MEH_002B.html#BL_ACTUALIZAR" class="LINK2">actualizar</a>. De todas maneras <strong>se recomienda</strong> al usuario tener presente que la informaci&oacute;n adicionada en los formularios <em>par&aacute;metros, cuotas y eventos</em> solo ser&aacute; guardada en la base de datos cuando desde la tercera p&aacute;gina del wizard de nuevo producto se utilice el bot&oacute;n finalizar. </p>
+                <p class="PARRAFO">Una vez que el actor ha diligenciado todos los datos de la primera p�gina del wizard, se puede deplazar a la segunda p�gina denominada l�nea de cr�dito que contiene los siguientes campos.<b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2"></span></b></p>
+                <div align="center" class="PARRAFO"><p align="center"><img src="../img/MEF_002E3.PNG" width="670" height="504"></p>
+                  <p class="PARRAFO">&nbsp;</p>
+                  <p align="center" class="TITLE">Descripci�n de campos</p>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>L�nea de cr�dito<br>
+                          </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          obligatorio con lista de valores de la cual se puede seleccionar la <em><a href="MEH_001B4.html" class="LINK2">l�nea de cr�dito</a></em> principal del producto.<br>
+                        </p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Moneda<br>
+                          <br>
+                          <br>
+                          </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                      campo obligatorio contiene lista de valores de la cual se selecciona la moneda en la cual se encuentra denominada la l�nea de cr�dito a adicionar al nuevo producto.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Modo de uso<br>
+                          <br>
+                          <br>
+                          </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo de salida que muestra como �nico valor 'Principal' teniendo en cuenta que para crear el producto se requiere siempre que este tenga una l�nea principal.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tipo cartera<br>
+                          <br>
+                          </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este campo obligatorio contiene lista de valores de donde se puede seleccionar el <em><a href="NUH_015B.html" class="LINK2">tipo de cartera</a></em> al cual corresponde la l�nea de cr�dito asociada al nuevo producto, de acuerdo con las normas expedidas por el ente u organismo regulador.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>N�mero de utilizaciones<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo no obligatorio en el cual se registra el n�mero de veces   que la entidad permite utilizar la l�nea de cr�dito, en el   lapso de tiempo espec�fico definido en el siguiente campo.</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodo utilizaciones<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico no obligatorio se registra el n�mero de periodos o facturaciones que se deben tener en cuenta al momento de validar el n�mero de utilizaciones autorizadas por la entidad para la l�nea de cr�dito asociada al nuevo producto.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Prioridad aplicaci�n de pagos<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico no obligatorio en el que se determina el orden o jerarqu�a asignado a la l�nea de cr�dito en caso de ser requerido de acuerdo con lo parametrizado por la entidad  en la opci�n <em><a href="CAH_007B.html" class="LINK2">Prioridad aplicaci�n de pagos</a></em>.</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>% Sobrecupo autorizado<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este campo no obligatorio  permite registrar el porcentaje calculado sobre el cupo de la l�nea asociada al nuevo producto, en que pueden excederse los   consumos o utilizaciones efectuados. Es excluyente con el campo Valor sobrecupo autorizado</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor sobrecupo autorizado<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo mutuamente excluyente con el anterior y en el cual se indica el valor m�ximo en que pueden excederse los consumos o utilizaciones efectuados para la l�nea. Es un campo num�rico de hasta 14 enteros y 2 decimales.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cupo en m�ltiplos de<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En  este campo obligatorio tipo combo se indica la manera como se   calcular� y otorgar� el cupo para la l�nea en el proceso de solicitud o asignaci�n de los cupos para la misma. Al momento de asignarle valor a este campo se debe tener en cuenta la   moneda en la cual est� expresada la l�nea asociada al al nuevo producto    por cuanto no es lo mismo asignarle y/o aumentarle a un cupo $10.000.00 que   U$10.000.00.</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Ajuste cupos<br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio tipo combo en el cual se selecciona entre <em>Truncar</em> o <em>Redondear</em>, la manera en que el sistema debe hacer el ajuste de los cupos solicitados / asignados de acuerdo con el m�ltiplo indicado en el campo anterior.que indica la calificaci&ograve;n externa de la tarjeta con la cual lleg&ograve; la informaci&ograve;n procesada y registrada en la cuenta contable.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cupo m�ximo<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo obligatorio de hasta 14 enteros y 2 decimales se registra el monto m�ximo que se le puede asignar como cupo a la l�nea asociada al nuevo producto.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cobertura<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio tipo combo en el cual se selecciona entre <em>Local </em>o <em>Internacional</em> el uso permitido para la l�nea de cr�dito asociada al nuevo producto.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Reporta compensador<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo obligatorio tipo check se  indica si dentro de los   archivos de refresco enviados a las <em><A href="NUH_033B.html" class="LINK2">franquicias</A></em> o <em><A href="NUH_054B.html" class="LINK2">compensadores</A></em> se incluye o no el disponible de la   l�nea; cuando no est� marcado, significa que la entidad autoriza directamente las   transacciones asociadas a la l�nea de cr�dito.</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n afecta extracupo<br>
+                                <br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo obligatorio que  indica si las transacciones asociadas a la l�nea de cr�dito afectan el <em><a href="SCH_031B.html" class="LINK2">extracupo</a></em> de la tarjeta.</p></td>
+                    </tr>
+                  </table>
+                  <p align="left" class="PARRAFO">
+                  <p class="PARRAFO">Despu�s de haber llenado  todos los datos de la segunda  p�gina del wizard, se puede deplazar a la tercera y �ltima p�gina denominada transacciones asociadas que contiene un �nico campo.<b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2"></span></b></p>
+                  <div align="center" class="PARRAFO">
+                    <p align="center"><img src="../img/MEF_002E4.PNG" width="698" height="50"></p>
+                  </div>
+                  <p align="left" class="PARRAFO">    
+                  
+                  <p align="center" class="TITLE">Descripci�n de campos</p>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'>
+                      <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n<br>
+                      </b></p></td>
+                      <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                        obligatorio con lista de valores de la cual se puede seleccionar la<em> <a href="MEH_003B.html" class="LINK2">transacci�n interna</a> </em>que  va a ser asociada con la l�nea de cr�dito. Desde el punto de vista pr�ctico, son las transacciones que est�n permitidas o autorizadas por la entidad para la l�nea de cr�dito asociada con el nuevo producto.<br>
+                      </p></td>
+                    </tr>
+                  </table>
+                  <p align="left" class="PARRAFO"> 
+                  <span class="PARRAFO">
+                  <a name="BL_PARAMETROS">
+                  <p><span class="SUBTTLO2"><span style'font-family:Arial'><b style'mso-bidi-font-weight:normal'>Par�metros</b></span><font face="Arial, Helvetica, sans-serif"><span style'font-family:Arial'>:</span></font></span><font face="Arial, Helvetica, sans-serif"> Si desde la primera p�gina del wizard el usuario invoca el hiperv&igrave;nculo <em>Par�metros</em> se despliega un nuevo formulario estructurado en 13 bloques de datos que permiten complementar las caracter�sticas del nuevo producto creado. </font>Adicionalmente, si en el formulario <em><a href="NUH_055B.html" class="LINK2">par�metros operativos</a></em> en el campo <em>Excepci�n geogr�fica</em> se encuentra seleccionada una opci�n diferente a <em>No aplica</em>, se despliega un hiperv�nculo denominado <em><a href="MEH_002B.html#BL_AMERICANOS" class="LINK2">Par�metros americanos</a></em>.    </p>
+                  <p>&nbsp;</p>
+                  <p><img src="../img/MEF_002E5.PNG" width="992" height="700"></p>
+                  <div align="center" class="PARRAFO">
+                    <p align="center" class="TITLE">&nbsp;</p>
+                    <p align="center" class="TITLE">Descripci�n de campos</p>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Emite pl�stico<br>
+                        </b></p></td>
+                        <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                        este campo tipo check se indica si el producto debe emitir pl�stico como materializaci�n de la tarjeta. Si este campo se deja sin marcar para indicar que <em>NO</em> emite pl�stico; al   momento de definir los <em><a href="SOH_001B7.html" class="LINK2">par�metros de solicitudes por producto,</a></em> se debe tener la precauci�n de no asociar los tipos de solicitud <em>Reposici�n   cr�dito</em> y <em>Reexpedici�n cr�dito</em> por cuanto �stas s�lo aplican para   productos que si tengan asociado un pl�stico como materializaci�n de la tarjeta.   As� mismo, para los tipos de solicitud <em>Nuevo cr�dito</em> y <em>Renovaci�n cr�dito</em> se debe tener en cuenta no  asociar las etapas de pl�sticos (<em>realce, sobreflex de   empaque, sobreflex de clave, env�o a mensajer�a, acuse recibo de entrega, control de inventario) </em>que s�lo tienen aplicabilidad para productos que SI   emiten pl�stico.</p></td>
+                      </tr>
+                      <tr style'mso-yfti-irow:1'>
+                        <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Emite pl�stico principal<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          tipo check en el que se indica si el producto debe emitir pl�stico como materializaci�n de la tarjeta, para el titular principal.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="200" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Genera clave<br>
+                        </b></p></td>
+                        <td width="515" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo tipo check se se�ala si para el nuevo  producto se debe generar clave.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Activo<br>
+                        </b></p></td>
+                        <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo check que indica si el producto se encuentra activo para la entidad de manera que al invocar desde cualquier campo configurado para tal fin la lista de productos solo se muestran aquellos que tengan la condici�n de activos.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Mostrar por internet<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo se indica si el nuevo producto puede ser accesado a trav�s de internet.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Modelo de pl�stico<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si se ha indicado que el producto SI emite pl�stico, este campo se convierte en obligatorio y contiene una lista de valores de la cual se selecciona el modelo de pl�stico  se va a utilizar durante el proceso de realce de las tarjetas pertenecientes al nuevo producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Proveedor<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          de salida que despliega el c�digo y nombre del proveedor que suministra los pl�sticos para el realce de las tarjetas.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Generar n�mero acci�n<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                        campo tipo check permite indicar si el nuevo producto requiere un n�mero de acci�n. En caso de estar marcado, durante el proceso de ingreso de la solicitud de nuevo cr�dito se deber� indicar el n�mero de acci�n asociado a la tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Aplica pago por cuotas<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo check en el que se indica si para el producto se maneja aplicaci�n de pago por cuotas, como en el caso de aquellos productos de cr�ditos rotativos y tarjetas de retail.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Liquida inter�s parcial<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo  tipo check le permite a la entidad determinar   si el sistema debe liquidar los interes desde la fecha de facturaci�n hasta el   momento en que se efect�a el pago por parte del cliente, o si la liquidaci�n de �stos se debe hacer hasta   la siguiente facturaci�n.</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>% Tolerancia pagos<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico que permite  definir la relaci�n entre el pago efectuado y el saldo total de la deuda para generar intereses sobre los saldos pendientes. Si el   cliente efect�a un pago total  y al aplicarlo queda pendiente de cubrir un porcentaje de deuda menor o igual al parametrizado en este campo,  el sistema no le cobrar� al cliente los intereses   correspondientes a esa porci�n. Este campo es mutuamente excluyente con el de valor tolerancia pagos.</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor tolerancia pagos<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo num�rico de hasta 14 enteros y 2 decimales permite definir para el nuevo producto el monto por el cual no se le cobrar�n al cliente los intereses   correspondientes sobre la diferencia entre el saldo de la deuda y el pago total   efectuado. Es mutuamente excluyente con el campo % Toleracia pagos.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Vigencia tarjetas de emergencia<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de 1 d�gito en el cual se registra el n�mero de periodos durante los cuales el sistema aceptar� como v�lida una <em><a href="SOH_029B.html" class="LINK2">tarjeta de emergencia</a></em> para el nuevo producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Permite facturaci�n en d�lares<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo tipo check permite se�alar si para el nuevo producto es permitido facturar en d�lares.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Plazo d�as formalizar extrav�o<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico en el cual se registra el n�mero de d�as que como m�ximo tiene un cliente para formalizar el extrav�o de su tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodo traslado saldo moneda<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo permite registrar para el nuevo producto la altura de mora a partir de la cual los saldos en d�lares o moneda extranjera que presenta la tarjeta ser�n convertidos en su totalidad a la moneda local.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>CPS<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo con lista de valores de la cual se puede seleccionar la <em><a href="NUH_094B.html" class="LINK2">categor�a</a></em> o clasificaci�n dada al nuevo producto y que servir� espec�ficamente para la generaci�n de reportes y estad�sticas para las �reas comercial y de planeaci�n.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Programas comerciales<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo contiene lista de valores de la cual se puede seleccionar el <em><a href="MEH_019B.html" class="LINK2">programa comercial</a></em> que de acuerdo con sus caracter�sticas se ajuste m�s al nuevo producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>N�mero m�ximo tarjetas extendidas<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de hasta 4 d�gitos en el cual se registra el n�mero m�ximo de tarjetas extendidas que pueden depender de una misma tarjeta principal perteneciente al nuevo producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cupo m�nimo tarjetas extendidas<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo de hasta 14 enteros y 2 decimales permite a la entidad determinar el cupo m�nimo que se debe solicitar / asignar para cada una de las tarjetas dependientes que sean solicitadas.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>% Otros costos amparados<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo en el que se registra el porcentaje que la entidad cobrar� a las tarjetas amparadas por concepto de cuota de manejo, seguro y   afiliaci�n, calculado sobre el valor liquidado al tarjetahabiente principal del   cual dependen. </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Suma adicional influye cupo principal<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo tipo combo permite seleccionar entre  <em>Si</em> o <em>No</em> el cupo del nuevo producto ser�   distribuido entre la tarjeta principal y todas las tarjetas que dependan de ella.&nbsp; Al elegir la opci�n <em>Si</em>, significa que el cupo total del producto ser� distribuido entre la   tarjeta principal y sus dependientes, de forma que el cupo de cada tarjeta es   independiente y no afecta el de las dem�s, por cuanto el monto l�mite a   distribuir es el cupo global aprobado. Por el contrario, al seleccionar <em>No</em>, la tarjeta principal comparte el cupo con todos sus dependientes y   cualquiera de ellos puede utilizar el cupo global disponible, afectando as� el cupo que pueden   usar las dem�s. Si este campo se encuentra en blanco, el sistema evaluar� lo que se indique para el campo del mismo nombre en la opci�n <em><a href="NUH_055B.html" class="LINK2">par�metros operativos</a></em></p>
+                        </td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Capitaliza intereses<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo combo que permite seleccionar entre <em>Corriente, Moratorio, Ambos</em> o <em>No</em> que tipo de  intereses  van a ser capitalizados para   el c�lculo del pago m�nimo de las tarjetas pertenecientes al nuevo producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n capitaliza intereses<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si en el campo anterior se ha seleccionado una opci�n diferente a <em>No</em>, este campo se convierte en obligatorio y permite seleccionar de la lista de valores la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> mediante la cual se va formalizar la capitalizaci�n de los intereses.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>C�lculo pago m�nimo<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo tipo combo permite seleccionar entre <em>Transacciones, Revolvente variable</em> o <em>Revolvente fijo</em> el <em><a href="NUH_007B.html" class="LINK2">esquema de amortizaci�n</a></em> que se va a aplicar para las tarjetas del nuevo producto con el fin de poder calcular el pago m�nimo. Si la elecci�n es <em>Transacciones</em> o <em>Nulo</em> el sistema realizar� dicho   c�lculo basado en la parametrizaci�n realizada, por transacci�n, en la opci�n <em><A href="MEH_003B.html" class="LINK2">Transacciones por empresa</A></em>.&nbsp; Si se se�ala un plan de c�lculo diferente,   �ste prevalerecer� a lo se�alado a nivel de transacci�n.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>N�mero cuotas revolventes<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si en el campo anterior se ha seleccionado <em>Revolvente fijo</em> o <em>Revolvente variable</em>, este campo se  convierte en obligatorio y en �l se registra el n�mero de cuotas en las que por defecto se va a diferir el saldo del cliente.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Indicador econ�mico<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo que se vuelve obligatorio cuando el tipo de amortizaci�n es <em>Revolvente fijo</em> o <em>Revolvente variable </em>y contiene una lista de valores de la cual se puede seleccionar el <em><a href="NUH_043B.html" class="LINK2">indicador econ�mico</a></em> a utilizar por defecto para liquidar los intereses corrientes.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Mensaje extracto<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo contiene lista de valores de la cual se selecciona el <em><a href="NUH_062B.html" class="LINK2">mensaje</a></em> a incluir en los extractos de las tarjetas pertenecientes al nuevo producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b># L�neas extracto<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de hasta dos d�gitos en el cual se registra para el nuevo producto el n�mero de l�neas que se dispone por cada hoja para relacionar las transacciones a mostrar al cliente.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Informaci�n extracto<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo contiene una lista de valores de la cual se   selecciona entre  <em>Sin   transacciones, Transacciones del mes</em> o <em>Transacciones   activas</em>.la opci�n correspondiente al nivel de detalle que   se presentar� en el informe peri�dico del cliente.</p>
+                        </td>
+                      </tr>
+                    </table>
+                    <p src="../img/MEF_002E5.PNG">&nbsp;</p>
+                    <p src="../img/MEF_002E5.PNG">Los restantes bloques de datos del formulario de Par�metros contienen los siguientes campos:</p>
+                    <p src="../img/MEF_002E5.PNG">&nbsp;</p>
+                    <div align="center" class="PARRAFO">
+                      <p><img src="../img/MEF_002E6.PNG" width="992" height="757"></p>
+                      <p align="center" class="TITLE">Descripci�n de campos</p>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Afecta disponible<br>
+                          </b></p></td>
+                          <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo que contiene una lista de valores de la   cual se selecciona entre <em>Aplicar afectando disponible</em> o <em>Aplicar sin afectar   disponible</em> la manera en que se ver� afectado el disponible de la tarjeta por el saldo a favor generado.</p></td>
+                        </tr>
+                        <tr style'mso-yfti-irow:1'>
+                          <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Porcentaje (Bloqueo por sobrecupo)<br>
+                                    <br>
+                                    <br>
+                          </b></p></td>
+                          <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo se indica el porcentaje a partir del cual se bloquear� la tarjeta por efecto del uso del sobrecupo  autorizado para el nuevo producto.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor (Bloqueo por sobrecupo)<br>
+                          </b></p></td>
+                          <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo de hasta 14 enteros y 2 decimales en el cual se registra el valor del sobrecupo utilizado a partir del cual ser� bloqueada la tarjeta.<br>
+                          </p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor (Bloqueo por mora)<br>
+                          </b></p></td>
+                          <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico de 14 enteros y 2 decimales se indica el valor del capital en mora que presente la tarjeta, a partir del cual ser� bloqueada.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos (Bloqueo por mora)<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de 3 d�gitos en el cual se indica la altura de mora a partir de la cual la tarjeta ser� bloqueada por mora.<br>
+                          </p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor (Cancelaci�n por mal manejo mora)<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico de 14 enteros y 2 decimales en el que se indica el valor m�nimo del capital en mora que debe presentar la tarjeta en los periodos indicados en el campo siguientes para ser cancelada por mal manejo.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos </b><b>(Cancelaci�n por mal manejo mora)<br>
+                              </b></p>
+                          </td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            en el que se indica la cantidad de periodos en mora que como m�nimo debe tener la tarjeta para que junto con el monto en mora indicado en el campo anterior sea cancelada por mal manejo.<br>
+                          </p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor m�nimo<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este 
+                            campo de hasta 14 enteros y 2 decimales se registra el monto a partir del cual se aplicar� un bloqueo preventivo a la tarjeta por no efectuar el pago oportunamente.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>D�as despu�s<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo en el que se indica  el n�mero m�ximo de d�as calendario que la entidad otorga,   a manera de gracia, despu�s de la fecha l�mite para que el cliente efect�e el pago y a partir   de la cual se genera el bloqueo preventivo sobre la tarjeta.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>D�as a vencer CDT<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo permite registrar el n�mero de d�as faltantes para el vencimiento del CDT que garantiza una tarjeta, a fin que el sistema aplique un bloqueo preventivo sobre la misma hasta tanto se haga la renovaci�n del CDT.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor aceleraci�n deuda<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de hasta 14 enteros y dos decimales en el cual se define el monto de la deuda   a partir de la cual �sta se hace exigible en su totalidad, siempre y cuando la obligaci�n  alcance tambi�n la cantidad de periodos en mora   requeridos parametrizada en el siguiente campo.</p>
+                          </td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos para acelerar deuda<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este 
+                            campo se registra el n�mero de periodos en mora que debe alcanza la tarjeta para que conjuntamente con el valor parametrizado en el campo anterior la obligaci�n se haga exigible en su totalidad. </p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos de dudoso a castigo<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de 3 d�gitos en el cual se registra el n�mero de periodos que debe transcurrir desde el momento en que la deuda se considera de dudoso recaudo para que pase a ser una deuda incobrable y sea asumida por la entidad.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor d�bito<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo num�rico de 14 enteros y 2 decimales permite registrar el valor m�ximo de los saldos de naturaleza d�bito que pueden ser trasladados contablemente para dejar los saldos de la tarjeta en ceros.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor cr�dito<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de 14 enteros y 2 decimales que permite registrar el valor m�ximo de los saldos de naturaleza cr�dito que pueden ser trasladados contablemente para dejar los saldos de la tarjeta en ceros.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Convenio<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este campo contiene lista de valores de la cual se puede seleccionar el convenio que se desea asociar al producto de acuerdo con las caracter�sticas del nuevo producto.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Altura mora aval<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de hasta 4 d�gitos en el cual se indica la altura de mora a partir de la cual el convenio asume las obligaciones de las tarjetas avaladas por �l con cargo a la cuenta corriente o de ahorro.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>CDT garantiza el cr�dito<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo tipo check permite indicar si el producto requiere ser garantizado mediante un CDT como pre requisito para poder ser otorgado al cliente.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>% CDT para tarjeta principal<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo en el cual se indica el porcentaje que aplicado sobre el valor del CDT dado en garant�a el sistema utilizar� como base para calcular el cupo a asignar a la tarjeta.</p></td>
+                        </tr>
+                      </table>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Valor m�nimo CDT<br>
+                          </b></p></td>
+                          <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo de hasta 14 enteros y 2 decimales permite a la entidad determinar el monto m�nimo por el cual se debe expedir el CDT que garantiza la obligaci�n para que �ste sea aceptado como respaldo.</p></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <p src="../img/MEF_002E5.PNG">&nbsp;</p>
+                    <p src="../img/MEF_002E5.PNG">El formulario de <em>Par�metros</em> contiene el globo de localizaci�n que invoca otro formulario desde el cual es posible diligenciar datos relativos al manejo de centrales de riesgo para el nuevo producto.</p>
+                    <p src="../img/MEF_002E5.PNG">&nbsp;</p>
+                    <p align="center" src="../img/MEF_002E5.PNG"><img src="../img/MEF_002E8.PNG" width="208" height="101"></p>
+                    <p align="center" src="../img/MEF_002E5.PNG">&nbsp;</p>
+                    <p align="center" class="TITLE">Descripci�n de campos</p>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos central de riesgos<br>
+                        </b></p></td>
+                        <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de 1 d�gito en el cual se registra la cantidad de periodos que el sistema debe tomar en cuenta hacia atr�s para reportar la informaci�n sobre el comportamiento y la calificaci�n del cliente a las diferentes centrales de riesgo.</p></td>
+                      </tr>
+                      <tr style'mso-yfti-irow:1'>
+                        <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Reporta Cifin<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo tipo combo se puede seleccionar entre <em>Si</em> o <em>No</em> la informaci�n de las tarjetas pertenecientes al nuevo producto se debe reportar a la central de riesgo Cif�n en las interfases correspondientes.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Reporta Datacr�dito<br>
+                        </b></p></td>
+                        <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo combo que permite indicar <em>Si</em> o <em>No</em> la informaci�n de las tarjetas pertenecientes al nuevo producto se debe reportar a la central de riesgo Datacr�dito en las interfases correspondientes. <br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <p align="center" src="../img/MEF_002E5.PNG">&nbsp;</p>
+                    <p><span class="PARRAFO"><a name="BL_CUOTAS"><span class="SUBTTLO2"><span style'font-family:Arial'><b style'mso-bidi-font-weight:normal'>Cuotas</b></span><font face="Arial, Helvetica, sans-serif"><span style'font-family:Arial'>:</span></font></span><font face="Arial, Helvetica, sans-serif"> Si desde la primera p�gina del wizard de nuevo producto el usuario invoca el   hiperv&igrave;nculo  <em>Cuotas</em> se despliega un nuevo formulario que le permite a la entidad definir los par�metros necesarios para el cobro de las cuotas de afiliaci�n, manejo y seguro que se van a cobrar para el nuevo producto.</font> Por defecto, al ingresar a la opci�n se despliega en el formulario de cuota de manejo pero el usuario se puede mover mediante las flechas de desplazamiento a cualquiera de los otros dos formularios.</p>
+                    <p> Los campos desplegados en cualquiera de estos formularios son los mismos por lo cual los campos se explican una sola vez.</p>
+                    <p>&nbsp;</p>
+                    <p><img src="../img/MEF_002E7.PNG" width="748" height="508"></p>
+                    <p>&nbsp;</p>
+                    <div align="center" class="PARRAFO">
+                      <p align="center" class="TITLE">Descripci�n de campos</p>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tipo cuota<br>
+                          </b></p></td>
+                          <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo combo en el cual se puede seleccionar entre <em>Tradicional</em> o <em>Porcentual</em> el tipo de cuota que se est� parametrizando para el nuevo producto. <em>Tradicional</em> le indica al sistema que debe cobar el monto definido en el campo <em>Cuota</em>, mientras que en <em>Porcentual</em> el sistema tendr� en cuenta lo definido en el   campo <em>No cobrar si</em>, para aplicar o no el valor del <em>indicador econ�mico</em> seleccionado en el siguiente campo.</p></td>
+                        </tr>
+                        <tr style'mso-yfti-irow:1'>
+                          <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Indicador econ�mico<br>
+                                    <br>
+                                    <br>
+                          </b></p></td>
+                          <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si el tipo cuota se define como porcentual, en este campo se determina el <em><a href="NUH_043B.html" class="LINK2">Indicador econ�mico</a></em> que el sistema debe utilizar para calcular el valor de la cuota.<br>
+                          </p></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cuota</b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este campo de hasta 14enteros y 2 decimales se registra el valor a cobrar por concepto de cuota para las tarjetas pertenecientes al nuevo producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Porcentaje cuota<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          num�rico en el que se indica el porcentaje que aplicado sobre  el concepto seleccionado en el campo 'Base' servir� al sistema para calcular el valor de la cuota a cobrar. Este campo es excluyente con el de 'Cuota' es decir que solo uno de los dos debe ser diligenciado.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Base<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo tipo combo se selecciona entre <em>Cupo</em> y <em>Promedio</em> (de los �ltimos doce meses) el concepto que servir� de base para aplicarle el porcentaje definido en el campo anterior y calcular el valor de la cuota a cobrar. Solo se debe diligenciar si el campo <em>Porcentaje cuota</em> tiene alg�n valor.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Modalidad<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          tipo combo que le permite a la entidad seleccionar entre <em>anticipada</em> o <em>vencida</em> la manera como ser� cobrada la cuota para las tarjetas del nuevo producto.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="200" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos<br>
+                        </b></p></td>
+                        <td width="515" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico que admite valores entre 1 y 12, se indica la cantidad de periodos que determina la frecuencia con la cual se va a efectuar el cobro de la cuota para las tarjetas pertenecientes al nuevo producto.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Evento inicio<br>
+                        </b></p></td>
+                        <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo combo en el que se selecciona entre <em>Facturaci�n, Entrega pl�stico</em> o <em>Utilizaci�n</em> el evento que al producirse va a generar el inicio del cobro de la cuota para la tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo con lista de valores se selecciona la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> con la cual se va a registrar el cobro de la cuota en caso que se cumplan las condiciones para generar dicha cuota.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n alterna<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo con lista de valores que permite seleccionar la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> que se va a generar para el cobro de la cuota en  caso de presentarse consumos en el exterior.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n cargo<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si la modalidad se ha definido como <em>Vencida</em> y el producto es cancelado o devuelto por el cliente antes de cumplir los periodos para el cobro de la cuota respectiva, en este  
+                          campo que contiene lista de valores se selecciona la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> mediante la cual se le va cargar al cliente el valor proporcional de la cuota liquidada desde la fecha del �ltimo cobro hasta el momento de la cancelaci�n.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n alterna cargo<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo con lista de valores que permite seleccionar la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> que se va a generar para el cobro proporcional de la cuota vencida cuando la tarjeta  sea cancelada antes de cumplirse los periodos para el cobro de la cuota y se hayan presentado consumos en el exterior.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n devoluci�n<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si la modalidad se ha definido como <em>Anticipada</em> y el producto es cancelado o devuelto por el cliente antes de que se causen los periodos cobrados, en este  
+                          campo que contiene lista de valores se selecciona la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> mediante la cual se le va hacer reintregro o devoluci�n al cliente del valor proporcional de la cuota liquidada desde la fecha de la cancelaci�n hasta el final del periodo ya cobrado.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n alterna devoluci�n<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo con lista de valores que permite seleccionar la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> que se va a generar para la devoluci�n proporcional de la cuota anticipada cuando la tarjeta  sea cancelada antes de haberse causado los periodos  cobrados y se hayan presentado consumos en el exterior.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>No cobrar cuando tiene <br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este 
+                          campo tipo combo se puede seleccionar entre <em>Menos</em> o <em>Mas </em>para indicarle al sistema de acuerdo con el valor ingresado en el campo <em>Tarjetas dependientes</em> y cumplirse la condici�n, si debe o no cobrar cuota a la tarjeta principal.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tarjetas dependientes<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo complementario al anterior y en el cual se registra el n�mero de tarjetas que el sistema tomar� como base junto con la condici�n se�alada para determinar si debe generar o no el cobro de la cuota para la tarjeta principal.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>No cobrar si <br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si el tipo de cuota es <em>Porcentual</em>, en este 
+                          campo tipo combo se selecciona entre <em>Saldo &gt; a</em> o <em>Saldo &lt; a</em>, la condici�n que debe cumplir la tarjeta para que conjuntamente con el monto indicado en el campo adjunto y  el n�mero de periodos determinado en el campo siguiente el sistema determine si debe generar el cobro de la cuota y aplicar el indicador econ�mico correspondiente para el c�lculo de la misma.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo complementario del anterior permite indicar el n�mero de periodos que el sistema debe evaluar para determinar si la tarjeta cumple con las condiciones para ser exonerada de cuota o si por el contrario se debe generar el cobro respectivo.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>No cobra otro producto<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo check en el que se indica si en caso que el cliente posea otros productos con la entidad se le debe cobrar o no la cuota por las tarjetas que le sean otorgadas y pertenezcan al nuevo producto que se est� parametrizando.</p></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <p><span class="PARRAFO"><a name="BL_EVENTOS"><span class="SUBTTLO2" style'font-family:Arial'><b style'mso-bidi-font-weight:normal'>Eventos</b></span><span class="SUBTTLO2"><font face="Arial, Helvetica, sans-serif"><span style'font-family:Arial'>:</span></font></span><font face="Arial, Helvetica, sans-serif"> Si desde la primera p�gina del wizard de nuevo producto el usuario invoca el   hiperv&igrave;nculo<em> Eventos </em>se despliega un nuevo formulario que le permite a la entidad definir los par�metros necesarios para los diferentes eventos o tipos de solicitud que eventualmente es posible gestionar para el nuevo producto.</font></p>
+                    <p>El formulario se encuentra estructurado en 8 bloques de datos, siendo los tres primeros <em>Nuevos cr�ditos, Aumento de cupo </em>y<em> Reposici�n</em> con los siguientes campos:</p>
+                    <p>&nbsp;</p>
+                    <p><img src="../img/MEF_002E9.PNG" width="647" height="704"></p>
+                    <p>&nbsp;</p>
+                    <div align="center" class="PARRAFO">
+                      <p align="center" class="TITLE">Descripci�n de campos</p>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Ingresos m�nimos titular<br>
+                          </b></p></td>
+                          <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de hasta 14 enteros y 2 decimales en el que se registra el ingreso m�nimo mensual que debe reportar el cliente para que su solicitud avance normalmente por las diferentes etapas parametrizadas y  poderle otorgar una tarjeta perteneciente al nuevo producto.</p></td>
+                        </tr>
+                        <tr style'mso-yfti-irow:1'>
+                          <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Edad m�nima titular<br>
+                                    <br>
+                                    <br>
+                          </b></p></td>
+                          <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico de 2 d�gitos se registra la edad m�nima que debe tener el cliente para poder solicitar una tarjeta perteneciente a este producto. <br>
+                          </p></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Edad m�xima titular</b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de 2 d�gitos en el que se indica la edad m�xima que puede tener el cliente para solicitar una tarjeta perteneciente a este producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cupo m�nimo tarjeta principal<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico de 14 enteros y 2 decimales se registra el valor m�nimo a asignar como cupo a una tarjeta principal perteneciente al producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>% Principal para tarjeta virtual<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si el producto que se est� creando corresponde al tipo virtual, en este campo se registra el porcentaje m�ximo que sobre el cupo de la tarjeta principal de la cual va a depender la virtual se debe tomar como base para calcular el cupo de la tarjeta virtual. Si el producto no es virtual, este campo se debe dejar en blanco.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Edad m�xima mora para aprobar<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          num�rico de hasta 2 d�gitos en el cual se registra la m�xima altura de mora que el cliente puede presentar en la cantidad de periodos se�alados en el campo siguiente, con el fin que la solicitud de nuevos productos pueda ser procesada y aprobada.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="200" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos evaluaci�n mora otros productos<br>
+                        </b></p></td>
+                        <td width="515" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico de hasta 2 digitos se indica la cantidad de periodos que el sistema debe tener en cuenta para evaluar al altura de mora del cliente indicada en el campo anterior y poder aprobar las solicitudes de nuevos productos.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Producto con desembolsos<br>
+                        </b></p></td>
+                        <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo check en el cual se se�ala si el producto maneja desembolsos y en consecuencia requiere un n�mero de cuenta al momento de ingresar la solicitud.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tarjeta con chip<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo tipo check se indica si el pl�stico emitido como materializaci�n del producto incorpora un chip con la informaci�n pertinente.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tarjeta nueva activa<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo check que indica si una vez emitida la tarjeta esta sale sin ning�n bloqueo y lista para su uso o si por el contrario debe salir con bloqueo al despacho y esperar el proceso normal establecido por la entidad para el desbloqueo de la misma.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Se respeta el producto solicitado<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo se indica si durante el proceso de asignaci�n de los cupos y aprobaci�n de la solicitud se debe respetar el producto que el cliente solicit� incialmente o si el sistema puede evaluar y modificar, con base en el cupo aprobado calculado para la tarjeta, el producto que se le debe asignar al cliente.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>M�nimo periodos de antiguedad de la tarjeta<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de 2 d�gitos en el que se indica la cantidad m�nima de meses que la tarjeta debe tener de antiguedad para poder efectuar una solicitud de aumento de cupo o incluirla dentro de un proceso de aumento masivo de cupos.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Periodos m�nimos transcurridos desde anterior aumento<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico de 2 d�gitos se indica la cantidad de periodos (meses) que deben haber transcurrido desde el �ltimo aumento de cupo efectuado a la tarjeta para poder hacer una solicitud individual de aumento de cupo o incluirla en un proceso de aumento masivo de cupos. Si la tarjeta no ha tenido ning�n aumento, se eval�a como �ltima fecha de incremento la de aprobaci�n de la solicitud del nuevo cr�dito con la cual se cre� la tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>% M�nimo sobre el cupo actual<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo  num�rico de 3 enteros y 2 decimales que, permite a la entidad registrar el valor porcentual calculado   sobre el monto del cupo actual, que como m�nimo deber� incrementar el sistema al   efectuarse el proceso de aumento masivo</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Reposici&oacute;n 
+                            Primera vez / Segunda vez / Tercera vez / Mayor a tres veces<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En estos campos num�ricos de 14 enteros y 2 decimales, se registran respectivamente los montos que la entidad cobrar� al cliente cada vez que se haga una reposici�n de la tarjeta, acorde con la frecuencia o cantidad de veces que este evento se haya presentado.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n asociada<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si cualquiera de los campos anteriores contiene un valor, este campo se convierte en obligatorio y en �l se selecciona de la lista de valores la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> que se va a generar cuando se cumplan las condiciones para generar cobro por el evento .</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cambio de nombre / Banda magn�tica / Deterioro<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En estos campos tipo check se marcan aquellas causales por los cuales la entidad va a generar cobro al cliente en caso de presentarse el evento de reposici�n del pl�stico. </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Calcula fecha de vencimiento<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo check en el que se indica al sistema si dentro del proceso de reposici&oacute;n se debe calcular una nueva fecha de vencimiento para la tarjeta, teniendo en cuenta lo indicado en el par&aacute;metro <a href="MEH_002B.html#BL_PERIODOS" class="LINK2">n&uacute;mero periodos antes del vencimiento</a> contenido en este mismo formulario. Si el campo n&uacute;mero de periodos es nulo, el sistema siempre calcular&aacute; y actualizar&aacute; la nueva fecha de vencimiento para la tarjeta con base en la vigencia definida para el producto. </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Genera n�mero de tarjeta<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo se se�ala si como resultado del evento de reposici�n se debe generar un nuevo n�mero de tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Reposici�n activa<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo check en el que se indica si como resultado de la resposici�n del pl�stico este sale sin ning�n bloqueo y listo para su uso o si por el contrario debe salir con bloqueo al despacho y esperar el proceso normal establecido por la entidad para el desbloqueo de la tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <p>Los otros 5 bloques de datos del formulario <em>Eventos</em> contienen los siguientes campos:</p>
+                    <p>&nbsp;</p>
+                    <p><img src="../img/MEF_002E10.PNG" width="644" height="955"></p>
+                    <p>&nbsp;</p>
+                    <div align="center" class="PARRAFO">
+                      <p align="center" class="TITLE">Descripci�n de campos</p>
+                      <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Reexpedici&oacute;n 
+                              Primera vez / Segunda vez / Tercera vez / Mayor a tres veces </b></p></td>
+                          <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En estos campos num�ricos de 14 enteros y 2 decimales, se registran respectivamente los montos que la entidad cobrar� al cliente cada vez que se haga una reexpedici�n de la tarjeta, acorde con la frecuencia o cantidad de veces que este evento se haya presentado.</p></td>
+                        </tr>
+                        <tr style'mso-yfti-irow:1'>
+                          <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n asociada<br>
+                          </b></p></td>
+                          <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si cualquiera de los campos anteriores contiene un valor, este campo se convierte en obligatorio y en �l se selecciona de la lista de valores la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> que se va a generar cuando se cumplan las condiciones para generar cobro por el evento de reexpedici�n.</p></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="200" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Calcula fecha de vencimiento<br>
+                        </b></p></td>
+                        <td width="515" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo check en el que se indica al sistema si dentro del proceso de reexpedici�n se debe calcular una nueva fecha de vencimiento para la tarjeta, teniendo en cuenta lo indicado en el par&aacute;metro <a href="MEH_002B.html#BL_PERIODOS" class="LINK2">n&uacute;mero periodos antes del vencimiento</a> contenido en este mismo formulario. Si el campo n&uacute;mero de periodos es nulo, el sistema siempre calcular&aacute; y actualizar&aacute; la nueva fecha de vencimiento para la tarjeta con base en la vigencia definida para el producto. </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Porcentaje cuota<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          num�rico en el que se indica el porcentaje que aplicado sobre  el concepto seleccionado en el campo 'Base' servir� al sistema para calcular el valor de la cuota a cobrar. Este campo es excluyente con el de 'Cuota' es decir que solo uno de los dos debe ser diligenciado.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Renovaci&oacute;n 
+                            Primera vez / Segunda vez / Tercera vez / Mayor a tres veces </b></p></td>
+                        <td valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En estos campos num�ricos de 14 enteros y 2 decimales, se registran respectivamente los montos que la entidad cobrar� al cliente cada vez que se haga una renovaci�n de la tarjeta, acorde con la frecuencia o cantidad de veces que este evento se haya presentado.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="200" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n asociada<br>
+                        </b></p></td>
+                        <td width="515" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si cualquiera de los campos anteriores contiene un valor, este campo se convierte en obligatorio y en �l se selecciona de la lista de valores la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> que se va a generar cuando se cumplan las condiciones para generar cobro por el evento de renovaci�n.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Genera n�mero de tarjeta<br>
+                        </b></p></td>
+                        <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo se se�ala si como resultado del evento de renovaci�n se debe generar un nuevo n�mero de tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Reposici�n activa<br>
+                        </b></p></td>
+                        <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo tipo check en el que se indica si como resultado de la renovaci�n de la tarjeta esta sale sin ning�n bloqueo y lista para su uso o si por el contrario debe salir con bloqueo al despacho y esperar el proceso normal establecido por la entidad para el desbloqueo de la misma.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Permite renovaci�n masiva<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo tipo check se se�ala si las tarjetas pertenecientes al producto pueden ser incluidas dentro de los procesos de <em><a href="CAH_005B.html" class="LINK2">renovaci�n masiva</a></em> que eventualmente adelanta la entidad.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><a name="BL_PERIODOS"><b>N�mero periodos antes del vencimiento<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo en el que se registra la cantidad de periodos que el sistema debe evaluar con relaci�n a la fecha actual de vencimiento de la tarjeta para determinar si debe o no hacer renovaci�n autom�tica de la fecha de vencimiento, espec�ficamente cuando se est�n procesando solicitudes de reposici�n o reexpedici�n que tengan marcado el par&aacute;metro <em>Calcula fecha de vencimiento</em>. Para esto el sistema determina la cantidad de periodos que le faltan a la tarjeta para su vencimiento con relaci&oacute;n a la fecha actual y si es menor o igual al valor registrado en este campo calcula y actualiza la nueva fecha de vencimiento en el momento de aprobar la solicitud. </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Permite reactivaci�n<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo se indica si para el producto se permite o no el evento de reactivaci�n de la tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Costo reactivaci�n<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de 14 enteros y 2 decimales en el que se registra el costo a cobrar al cliente por concepto del evento de reactivaci�n de la tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="203" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n asociada<br>
+                        </b></p></td>
+                        <td width="512" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si el campo anterior contiene un valor, este campo se convierte en obligatorio y en �l se selecciona de la lista de valores la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> que se va a generar para el cobro por el evento de reactivaci�n.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Primera vez / Segunda vez / Tercera vez / Mayor a tres veces (Cambio de producto)<br>
+                        </b></p></td>
+                        <td valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En estos campos num�ricos de 14 enteros y 2 decimales, se registran respectivamente los montos que la entidad cobrar� al cliente cada vez que se haga un cambio de producto, acorde con la frecuencia o cantidad de veces que este evento se haya presentado.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="200" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n asociada<br>
+                        </b></p></td>
+                        <td width="515" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si cualquiera de los campos anteriores contiene un valor, este campo se convierte en obligatorio y en �l se selecciona de la lista de valores la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> que se va a generar cuando se cumplan las condiciones para generar cobro por el evento de cambio de producto.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Genera pl�stico<br>
+                        </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo en el que se indica si como resultado del proceso de cambio de producto se debe emitir un nuevo pl�stico. </p></td>
+                      </tr>
+                    </table>
+                    <p><span class="SUBTTLO2"><span style'font-family:Arial'><b style'mso-bidi-font-weight:normal'>Seguro</b></span><font face="Arial, Helvetica, sans-serif"><span style'font-family:Arial'>:</span></font></span><font face="Arial, Helvetica, sans-serif"><span style'font-family:Arial'></font> el �ltimo bloque de datos del formulario Eventos, contiene la informaci�n requerida por el sistema para determinar los par�metros mediante los cuales se van a regir los cobros que la entidad debe hacer al cliente por concepto de seguros sobre los cr�ditos otorgados. Aplica especialmente para la legislaci�n norteamericana.</p>
+                    <div align="center" class="PARRAFO">
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                        <tr style'mso-yfti-irow:1'>
+                          <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Edad m�nima seguro<br>
+                          </b></p></td>
+                          <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico de 2 d�gitos se registra la edad m�nima que el cliente debe tener para poder adquirir la p�liza de seguro de deudores.</p></td>
+                        </tr>
+                        <tr style'mso-yfti-irow:1'>
+                          <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Edad m�xima seguro<br>
+                          </b></p></td>
+                          <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo de 2 d�gitos en el que se ingresa la edad m�xima que el cliente debe tener para poder adquirir la p�liza de seguro de deudores.</p></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="200" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Altura mora seguro<br>
+                        </b></p></td>
+                        <td width="515" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico de dos d�gitos se indica la altura de mora a partir de la cual se suspende el cobro de la cuota correspondiente
+                        a la p�liza de seguro de vida de deudores, quedando la obligaci�n sin el amparo respectivo.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="199" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tipo contrato<br>
+                                  <br>
+                                  <br>
+                        </b></p></td>
+                        <td width="516" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          tipo combo en el cual se puede seleccionar entre <em>Indefinido</em> o <em>Definido</em> el tipo de contrato de trabajo que debe tener el cliente para poder ser elegible y adquirir la p�liza de seguro
+                          de vida de deudores.<br>
+                        </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Antiguedad laboral seguro<br>
+                        </b></p></td>
+                        <td valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo num�rico de 2 d�gitos se registra la cantidad minima de a�os de  antiguedad laboral que el cliente debe tener para poder acceder al cubrimiento 
+                        de la p�liza de seguro de vida de deudores.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="200" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Monto m�ximo asegurar<br>
+                        </b></p></td>
+                        <td width="515" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo num�rico de 14 enteros y 2 decimales en el que se registra el monto m�ximo cubierto por el seguro.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>% Liquidaci�n<br>
+                        </b></p></td>
+                        <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En este campo se indica el porcentaje que sobre el saldo de la obligaci�n se debe liquidar al cliente por concepto de la prima del seguro.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+                 mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'>
+                        <td width="201" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Transacci�n interna SPD<br>
+                        </b></p></td>
+                        <td width="514" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si el campo anterior contiene alg�n valor,  este campo se convierte en obligatorio y en �l se selecciona de la lista de valores la <em><a href="MEH_003B.html" class="LINK2">transacci�n interna</a></em> que se va a generar por concepto de la prima del seguro cobrada al cliente.</p></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <p><b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2">Actualizar:</span></b> si el usuario selecciona un registro e invoca la opci�n Actualizar, se despliega un formulario en el cual los �nicos campos NO modificables son el Bin, Producto, Grupo de afinidad y Marca.</p>
+                    <p>&nbsp;</p>
+                    <p align="center"><img src="../img/MEF_002E11.PNG" width="665" height="969"></p>
+                    <p align="center">&nbsp;</p>
+                    <p class="PARRAFO">Este formulario, igual que sucede con el de adicionar, contiene los hipervinculos <em><a href="MEH_002B.html#BL_PARAMETROS" class="LINK2">Par�metros</a></em>, <em><a href="MEH_002B.html#BL_CUOTAS" class="LINK2">Cuotas</a></em> y <em><a href="MEH_002B.html#BL_EVENTOS" class="LINK2">Eventos</a></em> con los cuales se invocan los formularios que permiten <strong>actualizar</strong> cualquiera de los datos contenidos en estos formulario y cuya descripci�n se se�al� anteriormente</p>
+                    <p class="PARRAFO"><span class="#1">NOTA IMPORTANTE PARA LA ACTUALIZACI&Oacute;N DE DATOS</span>: los formulario par&aacute;metros, cuotas y eventos solo tienen el bot&oacute;n <strong>Salvar</strong>, por lo cual una vez dentro del formulario las dos &uacute;nicas maneras de salir son utilizando este bot&oacute;n para regresar a la p&aacute;gina principal de definici&oacute;n de productos o invocando nuevamente la opci&oacute;n <em>Definici&oacute;n de productos</em> desde el men&uacute;. Si el usuario desea <strong>guardar</strong> los cambios efectuados, debe utilizar el bot&oacute;n Salvar para regresar a la p&aacute;gina principal de <em>Definici&oacute;n de productos</em> y desde all&iacute; invocar nuevamente el bot&oacute;n <strong>Salvar</strong>, con lo cual se actualizar&aacute;n en la base de datos todos los cambios hechos en cualquiera de los formularios. <span class="#4">Si el usuario no desea guardar los cambios hechos en el formulario, al regresar a la p&aacute;gina principal de Definici&oacute;n de productos debe utilizar el bot&oacute;n <strong>Cancelar </strong>con lo que se perder&aacute;n todos los datos que se hayan modificado en cualquiera de los formularios. En resumen, los cambios se guardan o se rechazan en bloque para todos los formulario  y no para cada formulario en particular. </span></p>
+                    <p class="PARRAFO">Si el usuario tiene duda respecto de si ha modificado datos o no, o definitivamente quiere tener la seguridad de no guardar ning&uacute;n cambio efectuado se sugiere invocar nuevamente la opci&oacute;n desde el men&uacute; con lo cual el sistema desplegar&aacute; otra vez el formulario de Definici&oacute;n de productos pero sin actualizar informaci&oacute;n en la base de datos. </p>
+                    <p class="PARRAFO">&nbsp;</p>
+                    <p class="PARRAFO"><b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2">Actualizar par�metros</span></b></p>
+                    <p align="center" class="PARRAFO"><img src="../img/MEF_002E12.PNG" width="804" height="466"></p>
+                  </div>
+                  <p align="left">&nbsp;</p>
+                  <p align="left"><b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2">Actualizar cuotas</span></b></p>
+                  <p align="center"><img src="../img/MEF_002E13.PNG" width="708" height="451"></p>
+                  <p align="center">&nbsp;</p>
+                  <p align="left"><b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2">Actualizar eventos</span></b></p>
+                  <p align="center"><img src="../img/MEF_002E14.PNG" width="586" height="1718"></p>
+                  <p align="center">&nbsp;</p>
+                  <p align="center" class="PARRAFO"><b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2">Detalle:</span></b> si el usuario selecciona un registro e invoca la opci�n Detalle, se despliega un formulario en el cual ninguno de sus campos es modificable.</p>
+                  <p align="center" class="PARRAFO"><img src="../img/MEF_002E15.PNG" width="707" height="1451"></p>
+                  <p align="left">Este formulario contiene los hiperv�nculos cuotas y eventos que le permiten al usuario invocar los formulario correspondientes en los cuales ninguno de sus campos es modificable.</p>
+                  <p align="left">&nbsp;</p>
+                  <p align="justify"><b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2">Detalle cuotas:</span></b></p>
+                  <p align="justify"><img src="../img/MEF_002E16.PNG" width="697" height="255"></p>
+                  <p align="center">&nbsp;</p>
+                  <p align="left"><b style'mso-bidi-font-weight:normal'><span class="SUBTTLO2">Detalle eventos</span></b>:</p>
+                  <p align="left"><img src="../img/MEF_002E17.PNG" width="598" height="1021"></p>
+                  <p align="center">&nbsp;</p>
+        </center>
+    </section>
+    <script src="../js/menu.js"></script>
+
+    <footer>
+        <div>
+            <img src="../img/logo.png">
+        </div>
+        <p>Open Card S.A.</p>
+        <p>-- Calle 77 Nº 11-19 Piso 4°, Ofc. 402, Bogotá D.C.</p>
+        <p> Colombia Suramérica -- Tel (571) 313 37 75- <a href="http://www.opencard.com"
+                target="_blank">www.opencard.com</a></p>
+
+    </footer>
+</body>
+
+</html>

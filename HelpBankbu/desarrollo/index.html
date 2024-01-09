@@ -1,155 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Empresa</title>
+    <title>BANKBUÂ®</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styleindex.css">
+    <style>
+        @media only screen and (max-width: 600px) {
+            nav ul {
+                display: none;
+            }
+
+            nav ul.active {
+                display: block;
+            }
+        }
+    </Style>
 </head>
+
 <body>
 
     <header>
-        <img class="logo" src="img/logoBankbu_.png" alt="Logo de Mi Empresa">
+        <img class="logo" src="img/logoBankbu_.png" alt="Logo de BANKBUÂ®">
         <div id="menuBtn">
-            <img src="img/menu.png" alt="Botón de Menú">
+            <img src="img/menu.png" alt="BotÃ³n de MenÃº">
         </div>
     </header>
-   <nav>
+    <nav>
         <ul>
-	    <li>
-                <a href="index.html" class="main-option">INICIO</a>
-                </li>
-            <li><a href="#"  class="main-option">NUCLEO</a>
- 		<ul>
-                    <li><a href="templates/NUH_000B.html">Config. Sistema</a></li>
-                    <li><a href="#">Parametros</a></li>
-                    <li><a href="#">Inicio</a></li>
-		    <li><a href="#">Proceso</a></li>
-                    <li><a href="#">Inf. Cliente</a></li>
-                    <li><a href="#">Contabilidad</a></li>
-		    <li><a href="#">Auditoria</a></li>
-		    <li><a href="#">Migracion</a></li>
-                </ul>
-	    </li>
             <li>
-                <a href="#" class="main-option">EMISOR</a>
+                <a href="index.html" class="main-option">INICIO</a>
+            </li>
+            <li><a href="#" class="main-option">NUCLEO</a>
                 <ul>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Solicitudes</a></li>
-                    <li><a href="#">Mercadeo</a></li>
-                    <li><a href="#">Servicio Al Cliente</a></li>
-		    <li><a href="#">Pendientes</a></li>
-                    <li><a href="#">Transaccionabilidad</a></li>
-                    <li><a href="#">Autorizaciones</a></li>
-		    <li><a href="#">Adm. Plasticos</a></li>
-		    <li><a href="#">Reclamos</a></li>
+                    <li><a href="templates/NUH_000B.html">Config. Sistema</a></li>
+                    <li><a href="templates/NUH_00B_N2.html">Parametros</a></li>
+                    <li><a href="templates/NUH_00B_inicio.html">Inicio</a></li>
+                    <li><a href="templates/NUH_00B_proceso.html">Proceso</a></li>
+                    <li><a href="templates/NUH_00B_inf.html">Inf. Cliente</a></li>
+                    <li><a href="templates/NUH_00B_conta.html">Contabilidad</a></li>
+                    <li><a href="templates/NUH_00B_audi.html">Auditoria</a></li>
+                    <li><a href="templates/NUH_00B_migra.html">Migracion</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#" class="main-option">ADQUIRIENTE</a>
-                </li>
- 	    <li>
-                <a href="#" class="main-option">TARJETA DEBITO</a> 
+                <a href="#" class="main-option">EMISOR</a>
+                <ul>
+                    <li><a href="templates/EMH_000B.html">Productos</a></li>
+                    <li><a href="templates/EMH_000Bsoli.html">Solicitudes</a></li>
+                    <li><a href="templates/EMH_000Bmerca.html">Mercadeo</a></li>
+                    <li><a href="templates/EMH_000Bservi.html">Servicio Al Cliente</a></li>
+                    <li><a href="templates/EMH_000Bpendi.html">Pendientes</a></li>
+                    <li><a href="templates/EMH_000Btrans.html">Transaccionabilidad</a></li>
+                    <li><a href="templates/EMH_000Bauto.html">Autorizaciones</a></li>
+                    <li><a href="templates/EMH_000Bplasti.html">Adm. Plasticos</a></li>
+                    <li><a href="templates/EMH_000Brecla.html">Reclamos</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="templates/ACH_000B.html" class="main-option">ADQUIRIENTE</a>
+            </li>
+            <li>
+                <a href="templates/DBH_000B.html" class="main-option">TARJETA DEBITO</a>
             </li>
         </ul>
     </nav>
 
     <section>
         <div>
-            <h1>Guía de Usuario del Sistema BANKBU®</h1>
 
-	<h2>BIENVENIDO !!!</h2>
 
-	<p>A través de esta guía el usuario conocerá las opciones que componen los diferentes roles de negocio del 
-	aplicativo BANKBU®. Se recomienda consultar primero la Ayuda general que le permitirá familiarizarse con la 
-	inteface de la aplicación; este link se encuentra disponible al final de cada una de las guías.
+            <h1>GuÃ­a de Usuario del Sistema BANKBU
+            </h1>
 
-	AVISO IMPORTANTE: Dependiendo del alcance establecido con cada cliente y/o la versión de BANKBU® utilizada, algunas opciones o funcionalidades descritas en esta guía pueden no estar disponibles para la entidad y/o presentar un comportamiento distinto al indicado; igualmente hay opciones y campos que aunque se muestran en el aplicativo, son de carácter informativo, no tienen ninguna funcionalidad asociada actualmente y que para poder ser utilizados por la entidad, requieren desarrollos y personalización. En caso de dudas, por favor consulte con el personal de OpenCard.
+            <p>A travÃ©s de esta guÃ­a el usuario conocerÃ¡ las opciones que componen los diferentes roles de negocio del
+                aplicativo BANKBU. Se recomienda consultar primero la Ayuda general que le permitirÃ¡ familiarizarse con
+                la
+                interfaz de la aplicaciÃ³n; este link se encuentra disponible al final de cada una de las guÃ­as.
 
-	Para acceder a las opciones de cada rol, por favor haga click sobre cada uno de ellos.</p>
 
-	<p><span class="aviso-importante">AVISO IMPORTANTE:</span> Dependiendo del alcance establecido con cada cliente y/o la versión de BANKBU® utilizada,
-	 algunas opciones o funcionalidades descritas en esta guía pueden no estar disponibles para la entidad y/o 
-	presentar un comportamiento distinto al indicado; igualmente hay opciones y campos que aunque se muestran en el
-	 aplicativo, son de carácter informativo, no tienen ninguna funcionalidad asociada actualmente y que para poder 
-	ser utilizados por la entidad, requieren desarrollos y personalización. En caso de dudas, por favor consulte con el
-	 personal de OpenCard.</p>
-           
+                AVISO IMPORTANTE: Dependiendo del alcance establecido con cada cliente y/o la versiÃ³n de BANKBU
+                utilizada, algunas opciones o funcionalidades descritas en esta guÃ­a pueden no estar disponibles para la
+                entidad y/o presentar un comportamiento distinto al indicado; igualmente hay opciones y campos que
+                aunque se muestran en el aplicativo, son de carÃ¡cter informativo, no tienen ninguna funcionalidad
+                asociada actualmente y que para poder ser utilizados por la entidad, requieren desarrollos y
+                personalizaciÃ³n. En caso de dudas, por favor consulte con el personal de OpenCard.
+
+
+                Para acceder a las opciones de cada rol, por favor haga click sobre cada uno de ellos.</p>
+
+            <p><span class="aviso-importante">AVISO IMPORTANTE:</span> Dependiendo del alcance establecido con cada
+                cliente y/o la versiÃ³n de BANKBU utilizada,
+                algunas opciones o funcionalidades descritas en esta guÃ­a pueden no estar disponibles para la entidad
+                y/o
+                presentar un comportamiento distinto al indicado; igualmente hay opciones y campos que aunque se
+                muestran en el
+                aplicativo, son de carÃ¡cter informativo, no tienen ninguna funcionalidad asociada actualmente y que para
+                poder
+                ser utilizados por la entidad, requieren desarrollos y personalizaciÃ³n. En caso de dudas, por favor
+                consulte con el
+                personal de OpenCard.
+            </p>
+         <center><img src="img/bankbu-removebg-preview.png" alt="Imagen de la empresa"></center>   
 
         </div>
-        <img src="img/bankbu-removebg-preview.png" alt="Imagen de la empresa">
     </section>
-
-
-<script>
-    // Función para cerrar el menú
-    function closeMenu() {
-        var nav = document.querySelector("nav");
-        nav.style.left = "-250px";
-    }
-
-    // Función para abrir el menú
-    function openMenu() {
-        var nav = document.querySelector("nav");
-        nav.style.left = "0";
-    }
-
-    document.getElementById("menuBtn").addEventListener("click", function(e) {
-        e.stopPropagation(); // Evita que el clic se propague al documento
-        var nav = document.querySelector("nav");
-        if (nav.style.left === "-250px") {
-            openMenu();
-        } else {
-            closeMenu();
-        }
-    });
-
-    // Agregar evento de clic a las opciones principales
-    var mainOptions = document.querySelectorAll(".main-option");
-    mainOptions.forEach(function(option) {
-        option.addEventListener("click", function(e) {
-            e.stopPropagation(); // Evita que el clic se propague al documento
-            var submenu = this.nextElementSibling; // Obtener el elemento hermano siguiente (ul)
-            var isOpen = submenu.style.maxHeight === "200px"; // Verifica si el menú está abierto
-            mainOptions.forEach(function(mainOption) {
-                var otherSubmenu = mainOption.nextElementSibling;
-                if (otherSubmenu !== submenu) {
-                    otherSubmenu.style.maxHeight = "0";
-                }
-            });
-            if (!isOpen) {
-                submenu.style.maxHeight = "200px"; // O la altura máxima que desees
-            } else {
-                submenu.style.maxHeight = "0";
-            }
-        });
-    });
-
-    // Cerrar el menú al hacer clic fuera de él
-    document.addEventListener("click", function() {
-        closeMenu();
-    });
-
-    // Evitar que el clic se propague desde el menú al documento
-    document.querySelector("nav").addEventListener("click", function(e) {
-        e.stopPropagation();
-    });
-</script>
-
+    <script src="js/menu.js"></script>
 
 </body>
 <footer>
- <div >
-            <img src="img/logo.png">
-        </div>
+    <div>
+        <img src="img/logo.png" alt="Logo de Open Card S.A.">
+    </div>
     <p>Open Card S.A.</p>
-<p>-- Calle 77 N° 11-19 Piso 4°, Ofc. 402, Bogotá D.C.</p>
-<p> Colombia Suramérica -- Tel (571) 313 37 75-  <a href="http://www.opencard.com" 
-target="_blank">www.opencard.com</a></p>
-  
-  
+    <p>-- Calle 77 NÂº 11-19 Piso 4Â°, Ofc. 402, BogotÃ¡ D.C.</p>
+    <p> Colombia SuramÃ©rica -- Tel (571) 313 37 75- <a href="http://www.opencard.com"
+            target="_blank">www.opencard.com</a></p>
 </footer>
+
 </html>
-
-
-

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANKBU®</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/PAGES.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logoBankbu_.png" alt="Logo de Mi Empresa">
+        <div id="menuBtn">
+            <img src="../img/menu.png" alt="Botón de Menú ">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html" class="main-option">INICIO</a>
+            </li>
+            <li><a href="#" class="main-option">NUCLEO</a>
+                <ul>
+                    <li><a href="NUH_000B.html">Config. Sistema</a></li>
+                    <li><a href="NUH_00B_N2.html">Parametros</a></li>
+                    <li><a href="NUH_00B_inicio.html">Inicio</a></li>
+                    <li><a href="NUH_00B_proceso.html">Proceso</a></li>
+                    <li><a href="NUH_00B_inf.html">Inf. Cliente</a></li>
+                    <li><a href="NUH_00B_conta.html">Contabilidad</a></li>
+                    <li><a href="NUH_00B_audi.html">Auditoria</a></li>
+                    <li><a href="NUH_00B_migra.html">Migracion</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="main-option">EMISOR</a>
+                <ul>
+                    <li><a href="EMH_000B.html">Productos</a></li>
+                    <li><a href="EMH_000Bsoli.html">Solicitudes</a></li>
+                    <li><a href="EMH_000Bmerca.html">Mercadeo</a></li>
+                    <li><a href="EMH_000Bservi.html">Servicio Al Cliente</a></li>
+                    <li><a href="EMH_000Bpendi.html">Pendientes</a></li>
+                    <li><a href="EMH_000Btrans.html">Transaccionabilidad</a></li>
+                    <li><a href="EMH_000Bauto.html">Autorizaciones</a></li>
+                    <li><a href="EMH_000Bplasti.html">Adm. Plasticos</a></li>
+                    <li><a href="EMH_000Brecla.html">Reclamos</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="ACH_000B.html" class="main-option">ADQUIRIENTE</a>
+            </li>
+            <li>
+                <a href="DBH_000B.html" class="main-option">TARJETA DEBITO</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div id="Layer2" > 
+            <table width="100%" border="0">
+              <tr> 
+                <td width="57%"><div align="right"> 
+                    <p align="center" class="TITLE">Consulta de clientes </p>
+                  </div></td>
+              </tr>
+            </table>
+            <p align="justify" class="PARRAFO">Este formulario que puede ser invocado desde 
+              el n&uacute;cleo (Core) o desde el emisor (Issuer) le permite a la entidad 
+              realizar la b&uacute;squeda de un cliente o una tarjeta en la base de datos.</p>
+            <p align="justify" class="PARRAFO">Cuando se invoca desde el core, el formulario 
+              permite la consulta por el tipo y n&uacute;mero de identificaci&oacute;n, 
+              por uno o los dos nombres o apellidos, o por uno solo de estos. Si se invoca 
+              desde el Issuer, adem&aacute;s de los criterios anteriores tambi&eacute;n 
+              permite consultar por un n&uacute;mero de tarjeta en particular.</p>
+            <p align="justify" class="PARRAFO">La opci&oacute;n est&aacute; compuesta por 
+              un filtro donde el usuario ingresa los criterios deseados y como resultado 
+              el sistema le muestra todos los registros de clientes coincidentes con la 
+              b&uacute;squeda efectuada.</p>
+            <p align="center"><img src="../img/SCF_001E.PNG" width="556" height="135"></p>
+            <p align="center">&nbsp;</p>
+            <p align="center" class="PARRAFO">Filtro cuando la opci&oacute;n se invoca desde 
+              consulta clientes del emisor:</p>
+            <p align="center"><img src="../img/SCF_001E2.PNG" width="628" height="158"></p>
+            <p align="center">&nbsp;</p>
+            <p align="center" class="TITLE">Descripci&oacute;n de campos</p>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b><span style'font-family:Arial'> 
+                    Identificaci&oacute;n</span></b></p></td>
+                <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Radio 
+                    button en el cual se le indica al sistema que la b&uacute;squeda se 
+                    va a efectuar para un tipo y n&uacute;mero de documento de identificaci&oacute;n 
+                    en particular. Por defecto, al ingresar al formulario es la opci&oacute;n 
+                    seleccionada. <br>
+                  </p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b><span style'font-family:Arial'>Tipo</span></b></p>
+                </td>
+                <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                    este campo campo tipo combo el usuario puede seleccionar el <a href="NUH_008B.html" class="LINK2"><em>tipo 
+                    de documento</em></a> asociado con el cliente que se desea consultar 
+                    en la base de datos.</p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b><span style'font-family:Arial'>N&uacute;mero</span></b></p></td>
+                <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                    alfanum&eacute;rico de 16 posiciones, en el que se ingresa el n&uacute;mero 
+                    asociado al documento seleccionado en el campo anterior.<br>
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b><span style'font-family:Arial'> 
+                    Nombre</span></b></p></td>
+                <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                    caso que la b&uacute;squeda se desee efectuar con base en el nombre 
+                    y/o apellidos del cliente, en esta radio button se marca para indicarle 
+                    al sistema el tipo de consulta que se requiere hacer.<br>
+                  </p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b><span style'font-family:Arial'> 
+                    1er Nombre</span></b></p></td>
+                <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                    alfanum&eacute;rico de 60 posiciones, no obligatorio, en el cual se 
+                    ingresa el primer nombre del cliente personasnatural o la raz&oacute;n 
+                    social de la persona jur&iacute;dica para la cual se desea consultar 
+                    la informaci&oacute;n.</p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b><span style'font-family:Arial'> 
+                    2do Nombre</span></b></p></td>
+                <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                    este campo alfanum&eacute;rico de 25 posiciones, no obligatorio, se 
+                    registra el segundo nombre correspondiente al cliente persona natural 
+                    para el que se desea efectuar la consulta.<br>
+                  </p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b><span style'font-family:Arial'> 
+                    1er Apellido</span></b></p></td>
+                <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                    alfanum&eacute;rico de 20 posiciones, no obligatorio, en el cual se 
+                    ingresa el primer apellido del cliente para el cual se desea efectuar 
+                    la b&uacute;squeda en la base de datos.<br>
+                  </p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b><span style'font-family:Arial'> 
+                    2do Apellido</span></b></p></td>
+                <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                    campo alfanum&eacute;rico de 20 posiciones, no obligatorio, permite 
+                    consultar en la base de datos a partir del segundo apellido del cliente 
+                    cuando este es una persona natural. </p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b><span style'font-family:Arial'> 
+                    Tarjeta</span></b></p></td>
+                <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                    alfanum&eacute;rico de 23 posiciones, no obligatorio, en el cual se 
+                    ingresa el n&uacute;mero de tarjeta que se desea consultar. Aplica &uacute;nicamente 
+                    cuando se ingresa a la opci&oacute;n desde el Issuer.</p>
+                </td>
+              </tr>
+            </table>
+            <p align="left" class="PARRAFO">&nbsp;</p>
+            <p align="left" class="PARRAFO">Una vez que se han ingresado los datos requeridos, 
+              el sistema trae un nuevo formulario en el cual se muestran todos aquellos 
+              registros de la base de datos que coinciden con los criterios seleccionados. 
+              Si la consulta se hizo desde el n&uacute;cleo (core) en el formulario de resultados 
+              el campo <a href="SCH_002B.html" class="LINK2"><em>n&uacute;mero identificaci&oacute;n</em></a> 
+              contiene un hiperv&iacute;nculo que invoca el formulario con los datos de 
+              un cliente en particular.</p>
+            <p align="center"><img src="../img/SCF_001E3.PNG" width="768" height="344"></p>
+            <p align="center">&nbsp;</p>
+            <p align="left" class="PARRAFO">Cuando la consulta se hace desde el emisor (issuer) 
+              en el formulario de resultados adicionalmente al hiperv&iacute;nculo del campo 
+              <a href="SCH_002B.html" class="LINK2"><em>n&uacute;mero identificaci&oacute;n</em></a> 
+              el campo <a href="SCH_060B.html" class="LINK2"><em>n&uacute;mero tarjeta</em></a> 
+              contiene un hiperv&iacute;nculo que invoca el formulario con los datos de 
+              la tarjeta.</p>
+            <p align="center"><img src="../img/SCF_001E4.PNG" width="818" height="36"></p>
+            <div align="center">
+        </section>
+    <script src="../js/menu.js"></script>
+
+    <footer>
+        <div>
+            <img src="../img/logo.png">
+        </div>
+        <p>Open Card S.A.</p>
+        <p>-- Calle 77 Nº 11-19 Piso 4°, Ofc. 402, Bogotá D.C.</p>
+        <p> Colombia Suramérica -- Tel (571) 313 37 75- <a href="http://www.opencard.com"
+                target="_blank">www.opencard.com</a></p>
+
+    </footer>
+</body>
+
+</html>

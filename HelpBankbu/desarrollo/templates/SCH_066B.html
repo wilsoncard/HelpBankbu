@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANKBU®</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/PAGES.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../img/logoBankbu_.png" alt="Logo de Mi Empresa">
+        <div id="menuBtn">
+            <img src="../img/menu.png" alt="Botón de Menú ">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html" class="main-option">INICIO</a>
+            </li>
+            <li><a href="#" class="main-option">NUCLEO</a>
+                <ul>
+                    <li><a href="NUH_000B.html">Config. Sistema</a></li>
+                    <li><a href="NUH_00B_N2.html">Parametros</a></li>
+                    <li><a href="NUH_00B_inicio.html">Inicio</a></li>
+                    <li><a href="NUH_00B_proceso.html">Proceso</a></li>
+                    <li><a href="NUH_00B_inf.html">Inf. Cliente</a></li>
+                    <li><a href="NUH_00B_conta.html">Contabilidad</a></li>
+                    <li><a href="NUH_00B_audi.html">Auditoria</a></li>
+                    <li><a href="NUH_00B_migra.html">Migracion</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="main-option">EMISOR</a>
+                <ul>
+                    <li><a href="EMH_000B.html">Productos</a></li>
+                    <li><a href="EMH_000Bsoli.html">Solicitudes</a></li>
+                    <li><a href="EMH_000Bmerca.html">Mercadeo</a></li>
+                    <li><a href="EMH_000Bservi.html">Servicio Al Cliente</a></li>
+                    <li><a href="EMH_000Bpendi.html">Pendientes</a></li>
+                    <li><a href="EMH_000Btrans.html">Transaccionabilidad</a></li>
+                    <li><a href="EMH_000Bauto.html">Autorizaciones</a></li>
+                    <li><a href="EMH_000Bplasti.html">Adm. Plasticos</a></li>
+                    <li><a href="EMH_000Brecla.html">Reclamos</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="ACH_000B.html" class="main-option">ADQUIRIENTE</a>
+            </li>
+            <li>
+                <a href="DBH_000B.html" class="main-option">TARJETA DEBITO</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div id="Layer2" > 
+            <table width="100%" border="0">
+              <tr> 
+                <td width="57%"><div align="right"> 
+                    <p align="center" class="TITLE">Tarjetas y pl&aacute;sticos</p>
+                  </div></td>
+              </tr>
+            </table>
+            <p align="justify"><span class="PARRAFO">Desde este formulario que se invoca 
+              desde el <a href="SCH_060B.html" class="LINK2"><em>detalle consulta de la 
+              tarjeta</em></a>, en el hiperv&iacute;nculo<em> informaci&oacute;n b&aacute;sica</em>, 
+              se puede consultar toda la informaci&oacute;n de la tarjeta o el cr&eacute;dito 
+              rotativo, relacionada con las tarjetas <a href="SCH_066B.html#BL_DEPENDIENTES" class="LINK2"><em>dependientes</em></a> 
+              de la actual, </span><a href="SCH_066B.html#BL_OTROS_PL" class="LINK2"><em>otros 
+              pl&aacute;sticos</em></a><span class="PARRAFO"> adicionales entregados al 
+              cliente junto con la tarjeta de cr&eacute;dito, los datos de las <a href="SCH_066B.html#BL_ADICIONALES" class="LINK2"><em>tarjetas 
+              adicionales</em></a> cubiertas, los n&uacute;meros de <a href="SCH_066B.html#BL_ANTERIORES" class="LINK2"><em>tarjetas 
+              anteriores</em></a> que ha tenido la tarjeta como resultado de las diferentes 
+              solicitudes hechas sobre la misma, y finalmente la informaci&oacute;n sobre 
+              las <a href="SCH_066B.html#BL_RENOVACIONES" class="LINK2"><em>renovaciones 
+              m&aacute;sivas</em></a> que ha presentado la tarjeta, </span></p>
+            <p align="justify" class="PARRAFO">Toda la informaci&oacute;n desplegada es 
+              solo de consulta por lo cual ninguno de los formularios de tarjetas y pl&aacute;sticos 
+              contiene las opciones Adicionar, Actualizar ni Eliminar.</p>
+            <p align="justify" class="PARRAFO">Por defecto, cuando el actor ingresa a la 
+              opci&oacute;n de tarjetas y pl&aacute;sticos el formulario se despliega en 
+              el tab dependientes.</p>
+            <p align="center"><img src="../img/SCF_066E.PNG" width="695" height="127"></p>
+            <p align="center" class="PARRAFO">&nbsp;</p>
+            <p align="center" class="TITLE">Descripci�n de campos</p>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="28%" height="40" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+          <p class="SUBTITULO"><b>N&uacute;mero tarjeta</b></p></td>
+                <td width="72%" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                    que muestra, en caso de existir, el n&uacute;mero asignado a las diferentes 
+                    tarjetas extendidas o amparadas que dependen de la tarjeta que se est&aacute; 
+                    consultando y aplica solo para tarjetas principales.</p></td>
+              </tr>
+              <tr style'mso-yfti-irow:1'> 
+                <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Nombre 
+                    cliente </b></p></td>
+                <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                    campo despliega el nombre del cliente titular de cada una de las tarjetas 
+                    dependientes. </p></td>
+              </tr>
+            </table>
+            <table width=736 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="206" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Producto<br>
+                    </b></p></td>
+                <td width="509" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                    que indica el producto (bin, segmento, grupo de afinidad) al que pertenece 
+                    la tarjeta dependiente.</p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="206" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Fecha 
+                    vencimiento </b></p></td>
+                <td width="509" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                    campo contiene la fecha de vencimiento o validez de cada una de las 
+                    tarjetas dependientes.<br>
+                  </p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="205" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Cupo 
+                    asignado<br>
+                    </b></p></td>
+                <td width="510" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                    en el que se muestra el monto total del cupo asignado a cada una de 
+                    las tarjetas dependientes.</p></td>
+              </tr>
+            </table>
+            <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+              <tr style'mso-yfti-irow:1'> 
+                <td width="204" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Disponible<br>
+                    </b></p></td>
+                <td width="511" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                    campo indica el monto hasta por el cual puede hacer utilizaciones cada 
+                    tarjeta dependiente, teniendo en cuenta el cupo asignado y los consumos 
+                    efectuados por cada una de ellas.</p></td>
+              </tr>
+            </table>
+            <div align="center" class="PARRAFO">
+          <p align="left" class="PARRAFO"> 
+              <p class="PARRAFO"><a name="BL_OTROS_PL"> </p>
+              <p><span class="SUBTTLO2"><span style'font-family:Arial'><b style'mso-bidi-font-weight:normal'>Otros 
+                pl&aacute;sticos </b></span><font face="Arial, Helvetica, sans-serif"><span style'font-family:Arial'>:</span></font></span><font face="Arial, Helvetica, sans-serif"> 
+                si el actor invoca el hiperv&iacute;nculo <em>Otros pl&aacute;sticos</em>, 
+                se despliega un nuevo formulario con la informaci&oacute;n de aquellos pl&aacute;sticos 
+                que adicionalmente a la tarjeta de cr&eacute;dito propiamente dicha, le 
+                han sido entregados por la entidad al cliente titular de la tarjeta consultada, 
+                de acuerdo con los <a href="MEH_002B4.html" class="LINK2"><em>par&aacute;metros 
+                del producto</em></a> la que pertenece la misma.</font></p>
+              <p align="center" src="../img/MEF_002E5.PNG"><img src="../img/SCF_066E1.PNG" width="399" height="141"></p>
+                <p>&nbsp;</p>
+              <div align="center" class="PARRAFO">
+                <p align="center" class="TITLE">Descripci�n de campos</p>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>C&oacute;digo<br>
+                    </b></p></td>
+                    <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                        campo contiene el c&oacute;digo que identifica cada uno de los <a href="MEH_030B.html" class="LINK2"><em>otros 
+                        pl&aacute;sticos</em></a> entregados al titular de la tarjeta.</p></td>
+                  </tr>
+                  <tr style'mso-yfti-irow:1'>
+                    <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Nombre<br>
+                              <br>
+                              <br>
+                    </b></p></td>
+                    <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                        que indica el nombre o denominaci&oacute;n asociado con cada uno 
+                        de los pl&aacute;stico anteriores.</p></td>
+                  </tr>
+                </table>
+                <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                  <tr style'mso-yfti-irow:1'>
+                    <td width="205" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Fecha 
+                        vencimiento<br>
+                    </b></p></td>
+                    <td width="510" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                        campo contiene la fecha hasta la cual tiene validez cada uno de 
+                        los otros pl&aacute;sticos entregados al cliente.</p></td>
+                  </tr>
+                </table>
+                <p align="left" class="PARRAFO"> 
+              <p class="PARRAFO"><a name="BL_ADICIONALES"> </p>
+                <p><span class="SUBTTLO2"><span style'font-family:Arial'><b style'mso-bidi-font-weight:normal'>Tarjetas 
+                  adicionales</b></span><font face="Arial, Helvetica, sans-serif"><span style'font-family:Arial'>:</span></font></span><font face="Arial, Helvetica, sans-serif"> 
+                  si el actor invoca el hiperv&iacute;nculo <em>Tarjetas adicionales</em>, 
+                  se despliega un nuevo formulario en el cual se muestra la informaci&oacute;n 
+                  de las tarjetas tipo adicional a cargo de la tarjeta consultada, y que 
+                  solo aplica para tarjetas principales.</font></p>
+                <p align="center" src="../img/MEF_002E5.PNG"><img src="../img/SCF_066E2.PNG" width="657" height="112"></p>
+                <div align="center" class="PARRAFO">
+          <p>&nbsp;</p>
+                  <p align="center" class="TITLE">Descripci�n de campos</p>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="28%" height="40" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'> 
+                        <p class="SUBTITULO"><b>N&uacute;mero tarjeta</b></p></td>
+                      <td width="72%" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          que muestra, en caso de existir, el n&uacute;mero asignado a las 
+                          diferentes tarjetas adicionales cubiertas por la tarjeta que se 
+                          est&aacute; consultando y aplica solo para tarjetas principales.</p></td>
+                    </tr>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Nombre 
+                          cliente </b></p></td>
+                      <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo despliega el nombre del cliente titular de cada una de las 
+                          tarjetas adicionales. </p></td>
+                    </tr>
+                  </table>
+                  <table width=736 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="206" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Producto<br>
+                          </b></p></td>
+                      <td width="509" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          que indica el producto (bin, segmento, grupo de afinidad) al que 
+                          pertenece la tarjeta adicional.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="206" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Sucursal</b></p></td>
+                      <td width="509" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                          campo contiene la sucursal de radicaci&oacute;n asociada con cada 
+                          tarjeta adicional.<br>
+                        </p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="205" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Genera 
+                          resumen <br>
+                          </b></p></td>
+                      <td width="510" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                          en el que se muestra si para la tarjeta adicional se debe originar 
+                          o no un resumen con el movimiento de la tarjeta adicional, durante 
+                          el proceso de generaci&oacute;n de los extractos. </p></td>
+                    </tr>
+                  </table>
+                  <p>&nbsp;</p>
+                  <p>El formulario contiene un bot&oacute;n que permite ver el detalle de 
+                    cualquiera de las tarjetas adicionales seleccionadas por el usuario, 
+                    mostrando la informaci&oacute;n agrupada en tres bloques de datos: <em>cliente, 
+                    localizaci&oacute;n y bloqueos</em><font face="Arial, Helvetica, sans-serif">. 
+                    </font></p>
+                  <p align="center" src="../img/MEF_002E5.PNG"><img src="../img/SCF_066E3.PNG" width="673" height="338"></p>
+                  <p>&nbsp;</p>
+                  <div align="center" class="PARRAFO"> 
+                    <p align="center" class="TITLE">Descripci�n de campos</p>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="28%" height="40" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'> 
+                          <p class="SUBTITULO"><b>N&uacute;mero tarjeta</b></p></td>
+                        <td width="72%" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que muestra, en caso de existir, el n&uacute;mero asignado a 
+                            las diferentes tarjetas adicionales cubiertas por la tarjeta 
+                            que se est&aacute; consultando y aplica solo para tarjetas principales.</p></td>
+                      </tr>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Nombre 
+                            cliente </b></p></td>
+                        <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo despliega el nombre del cliente titular de cada una de 
+                            las tarjetas adicionales. </p></td>
+                      </tr>
+                    </table>
+                    <table width=736 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="206" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Producto<br>
+                            </b></p></td>
+                        <td width="509" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que indica el producto (bin, segmento, grupo de afinidad) al 
+                            que pertenece la tarjeta adicional.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="206" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Sucursal</b></p></td>
+                        <td width="509" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo contiene la sucursal de radicaci&oacute;n asociada con 
+                            cada tarjeta adicional.<br>
+                          </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="205" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Genera 
+                            resumen <br>
+                            </b></p></td>
+                        <td width="510" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            en el que se muestra si para la tarjeta adicional se debe originar 
+                            o no un resumen con el movimiento de la tarjeta adicional, durante 
+                            el proceso de generaci&oacute;n de los extractos. </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Foto<br>
+                            </b></p></td>
+                        <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo indica si el pl&aacute;stico de la tarjeta adicional entregada 
+                            al cliente lleva o no impresa la foto del mismo.</p></td>
+                      </tr>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Direcci&oacute;n 
+                            correspondencia<br>
+                            </b></p></td>
+                        <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que contiene la direcci&oacute;n del titular de la tarjeta adicional, 
+                            a donde es posible localizarlo o enviarle correspondencia comercial.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="205" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Ubicaci&oacute;n<br>
+                            </b></p></td>
+                        <td width="510" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                            este campo se muestra la ubicaci&oacute;n geogr&aacute;fica 
+                            a la que pertence la direcci&oacute;n anterior.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="204" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Tel&eacute;fono 
+                            1 / 2<br>
+                            </b></p></td>
+                        <td width="511" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campos 
+                            que contienen respectivamente los n&uacute;meros telef&oacute;nicos 
+                            en los que es posible localizar o contactar al cliente titular 
+                            de la tarjeta adicional.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="203" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Extensi&oacute;n 
+                            1 / 2<br>
+                            </b></p></td>
+                        <td width="512" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                            estos campos se muestra si es el caso el n&uacute;mero de la 
+                            extensi&oacute;n asociada con cada uno de los tel&eacute;fonos 
+                            anteriores. <br>
+                          </p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Fax</b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que despliega el n&uacute;mero del fax al cual es posible enviar 
+                            comunicaciones al cliente.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Celular</b></p></td>
+                        <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo contiene el n&uacute;mero del tel&eacute;fono celular 
+                            del cliente titular de la tarjeta adicional consultada.</p></td>
+                      </tr>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Zona 
+                            postal <br>
+                            </b></p></td>
+                        <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que muestra la zona postal a la cual pertenecen la direcci&oacute;n 
+                            y ubicaci&oacute;n del cliente titular de la tarjeta adicional.</p></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Persona 
+                          / fecha<br>
+                          </b></p></td>
+                      <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Esta 
+                          dupla de campos contiene en caso de existir, el m&aacute;s reciente 
+                          bloqueo aplicado sobre el cliente titular de la tarjeta adicional 
+                          y la fecha en la cual se registr&oacute; en el sistema</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Saldo 
+                          / fecha<br>
+                          </b></p></td>
+                      <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Dupla 
+                          de campos que despliegan el mas reciente bloqueo aplicado sobre 
+                          el saldo de la tarjeta adicional y la fecha de su registro.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Pl&aacute;stico 
+                          / fecha<br>
+                          </b></p></td>
+                      <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                          esta dupla de campos se se&ntilde;ala el m&aacute;s reciente bloqueo 
+                          reportado sobre el pl&aacute;stico y la fecha en que se registr&oacute; 
+                          en el sistema.</p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Sobrecupo 
+                          / fecha<br>
+                          </b></p></td>
+                      <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campos 
+                          que indican el m&aacute;s reciente bloqueo que se aplic&oacute; 
+                          a la tarjeta adicional por haber incurrido en sobre cupo y la 
+                          fecha en la cual se registr&oacute;. </p></td>
+                    </tr>
+                  </table>
+                  <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                    <tr style'mso-yfti-irow:1'> 
+                      <td width="202" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Reestructuraci&oacute;n 
+                          / fecha<br>
+                          </b></p></td>
+                      <td width="513" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Estos 
+                          campos despliegan el mas reciente bloqueo por reestructuraci&oacute;n 
+                          o refinanciaci&oacute;n que tuvo la tarjeta y la fecha de su aplicaci&oacute;n.</p></td>
+                    </tr>
+                  </table>
+                  <p><a name="BL_ANTERIORES"></a> </p>
+                  <p><span class="SUBTTLO2"><span style'font-family:Arial'><b style'mso-bidi-font-weight:normal'>Tarjetas 
+                    anteriores </b></span><font face="Arial, Helvetica, sans-serif"><span style'font-family:Arial'>:</span></font></span><font face="Arial, Helvetica, sans-serif"> 
+                    si el actor invoca el hiperv&iacute;nculo <em>tarjetas anteriores</em>, 
+                    se despliega un nuevo formulario que contiene la informaci&oacute;n 
+                    hist&oacute;rica de los distintos n&uacute;meros de tarjeta que la tarjeta 
+                    actual ha tenido desde el momento en que se aprob&oacute; al cliente 
+                    la solicitud del nuevo cr&eacute;dito y se le asign&oacute; un n&uacute;mero 
+                    a la tarjeta por primera vez.</font></p>
+                  <p align="center" src="../img/MEF_002E5.PNG"><img src="../img/SCF_066E4.PNG" width="640" height="166"></p>
+                  <div align="center" class="PARRAFO"> 
+                    <p>&nbsp;</p>
+                    <p align="center" class="TITLE">Descripci�n de campos</p>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>N&uacute;mero 
+                            tarjeta <br>
+                            </b></p></td>
+                        <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo indica los diferentes n&uacute;meros de tarjeta que ha 
+                            tenido anteriormente la tarjeta que se est&aacute; consultando.</p></td>
+                      </tr>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Nombre 
+                            pl&aacute;stico <br>
+                            <br>
+                            <br>
+                            </b></p></td>
+                        <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que contiene el nombre realzado o asociado con cada una de las 
+                            tarjetas anteriores.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="205" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>N&uacute;mero 
+                            tarjeta fraude<br>
+                            </b></p></td>
+                        <td width="510" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                            caso que el cliente haya reportado un fraude con su tarjeta 
+                            y por esta causa se le haya asignado una nueva tarjeta, en este 
+                            campo se muestra el n&uacute;mero de la tarjeta con la cual 
+                            se efectu&oacute; dicho fraude.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="204" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Bloqueo<br>
+                            </b></p></td>
+                        <td width="511" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que contiene la &uacute;ltima causal de bloqueo que se le aplic&oacute; 
+                            a cada una de las tarjetas anteriores del cliente.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="203" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Fecha 
+                            bloqueo <br>
+                            </b></p></td>
+                        <td width="512" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                            este campo se muestra la fecha en la cual se registr&oacute; 
+                            en el sistema el bloqueo a la tarjeta.</p></td>
+                      </tr>
+                    </table>
+                    
+                  </div>
+                  <p align="center" class="PARRAFO">&nbsp;</p>
+                  <p align="center" class="PARRAFO">Al igual que el formulario de tarjetas 
+                    adicionales, este tambi&eacute;n contiene un bot&oacute;n de detalle 
+                    que permite ver informaci&oacute;n m&aacute;s completa relacionada con 
+                    cada una de las tarjetas anteriores que adem&aacute;s de los campos 
+                    ya mencionados contiene el producto, fecha de vencimiento, fecha reexpedici&oacute;n, 
+                    fecha denundio y el tipo de fraude.</p>
+                  <p align="center" src="../img/MEF_002E5.PNG"><img src="../img/SCF_066E5.PNG" width="672" height="128"></p>
+                  <div align="center" class="PARRAFO"> 
+                    <p>&nbsp;</p>
+                    <p align="center" class="TITLE">Descripci�n de campos</p>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Producto<br>
+                            </b></p></td>
+                        <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo muestra el bin, segmento y grupo de afinidad al cual pertenece 
+                            la tarjeta anterior.</p></td>
+                      </tr>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Vencimiento<br>
+                            <br>
+                            <br>
+                            </b></p></td>
+                        <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que contiene la fecha de vencimiento que ten&iacute;a la tarjeta 
+                            anterior al momento de haber sido bloqueada.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="205" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Reexpedici&oacute;n</b></p></td>
+                        <td width="510" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                            caso que el motivo del cambio de n&uacute;mero hubiera sido 
+                            la p&eacute;rdida de la tarjeta o un fraude con la misma, en 
+                            este campo se muestra la fecha en la cual se hizo la reexpedici&oacute;n 
+                            de la nueva tarjeta entregada al cliente.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="204" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Fecha 
+                            denuncio <br>
+                            </b></p></td>
+                        <td width="511" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que contiene la fecha en la cual el cliente present&oacute; 
+                            el denuncio por la p&eacute;rdida de la tarjeta o por el fraude 
+                            cometido con la misma.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="203" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Fraude<br>
+                            </b></p></td>
+                        <td width="512" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">En 
+                            este campo se muestra si el evento que origin&oacute; la reexpedici&oacute;n 
+                            fue p&eacute;rdida o robo de la tarjeta &oacute; un fraude.</p></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <p align="center" class="PARRAFO">&nbsp;</p>
+                  <p><a name="BL_RENOVACIONES"></a> </p>
+                  <p><span class="SUBTTLO2"><span style'font-family:Arial'><b style'mso-bidi-font-weight:normal'>Renovaciones</b></span><font face="Arial, Helvetica, sans-serif"><span style'font-family:Arial'> 
+                    masivas:</span></font></span><font face="Arial, Helvetica, sans-serif"> 
+                    si el actor invoca el hiperv&iacute;nculo <em>renovaciones masivas</em>, 
+                    se despliega un nuevo formulario que contiene la informaci&oacute;n 
+                    hist&oacute;rica de las diferentes ocasiones en las cuales la tarjeta 
+                    ha sido renovada en forma masiva por la entidad, de acuerdo con sus 
+                    pol&iacute;ticas internas.</font></p>
+                  <p align="center" src="../img/MEF_002E5.PNG"><img src="../img/SCF_066E6.PNG" width="398" height="104"></p>
+                  <div align="center" class="PARRAFO"> 
+                    <p>&nbsp;</p>
+                    <p align="center" class="TITLE">Descripci�n de campos</p>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="28%" height="57" valign=top style'width:28.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>N&uacute;mero 
+                            tarjeta anterior<br>
+                            </b></p></td>
+                        <td width="72%" valign=top style'width:72.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo indica el n&uacute;mero que ten&iacute;a asignado la tarjeta 
+                            antes de la renovaci&oacute;n.</p></td>
+                      </tr>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Fecha 
+                            vencimiento <br>
+                            <br>
+                            <br>
+                            </b></p></td>
+                        <td valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Campo 
+                            que contiene la fecha de vencimiento que ten&iacute;a la tarjeta 
+                            antes de ser renovada.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="205" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Lista<br>
+                            </b></p></td>
+                        <td width="510" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Este 
+                            campo muestra el nombr de la lista en la cual estaba contenida 
+                            la tarjeta y de donde fue seleccionada para aplicarle el proceso 
+                            de renovaci&oacute;n masiva.</p></td>
+                      </tr>
+                    </table>
+                    <table width=715 border=0 cellpadding=0 cellspacing=0 style'width:536.25pt;
+             mso-cellspacing:0cm;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+                      <tr style'mso-yfti-irow:1'> 
+                        <td width="204" height="54" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p class="SUBTITULO"><b>Motivo 
+                            rechazo <br>
+                            </b></p></td>
+                        <td width="511" valign=top style'padding:3.0pt 3.0pt 3.0pt 3.0pt'><p align="justify" class="PARRAFO">Si 
+                            la renovaci&oacute;n no se hace o se rechaza por el sistema, 
+                            en este campo se muestra la causal que origina este evento.</p></td>
+                      </tr>
+                    </table>
+                    
+                </section>
+    <script src="../js/menu.js"></script>
+
+    <footer>
+        <div>
+            <img src="../img/logo.png">
+        </div>
+        <p>Open Card S.A.</p>
+        <p>-- Calle 77 Nº 11-19 Piso 4°, Ofc. 402, Bogotá D.C.</p>
+        <p> Colombia Suramérica -- Tel (571) 313 37 75- <a href="http://www.opencard.com"
+                target="_blank">www.opencard.com</a></p>
+
+    </footer>
+</body>
+
+</html>
